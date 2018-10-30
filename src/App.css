@@ -1,32 +1,142 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+:root {
+  /* Law book colors */
+  --cocoa-brown: hsla(35, 100%, 13%, 1);
+  --wheatfield: hsla(44, 37%, 80%, 1);
+
+  /* Book cover colors */
+  --navy: hsla(240, 100%, 20%, 1);
+  --sunglow: hsla(48, 100%, 60%, 1);
+  --safety-orange: hsla(24, 100%, 50%, 1);
+
+  /* Gentle colors */
+  --unbleached-silk: #f9dec9;
+  --medium-taupe: #685044;
+
+  /* Apply colors */
+  --dark-area: var(--medium-taupe);
+  --light-area: var(--unbleached-silk);
+  --dark-text: var(--medium-taupe);
+  --light-text: var(--unbleached-silk);
+  --white-area: white;
+
+  --bar-height: 45px;
+  --header-height: var(--bar-height);
+  --footer-height: var(--bar-height);
+
+  --small-margin: 2.5vw;
+  --medium-margin: calc(2 * var(--small-margin));
+  --large-margin: calc(3 * var(--small-margin));
+  --tiny-margin: calc(0.5 * var(--small-margin));
+  --tile-height: 5rem;
+
+  --z-index-1: 10;
+  --z-index-2: 20;
+  --z-index-3: 30;
+  --z-index-4: 40;
+  --z-index-max: 99;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.HeaderBar {
+  position: fixed;
+  top: 0;
+  height: var(--header-height);
+  width: 100%;
+  background-color: var(--dark-area);
+  color: var(--light-text);
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.PageShell {
+  position: fixed;
+  top: var(--header-height);
+  height: calc( 100% - var(--header-height) - var(--footer-height) );
+  width: 100%;
+  overflow-y: scroll;
+  background-color: var(--light-area);
+  color: var(--dark-text);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.FooterBar {
+  position: fixed;
+  bottom: 0;
+  height: var(--header-height);
+  width: 100%;
+  background-color: var(--dark-area);
+  color: var(--light-text);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+.OverviewTile {
+    height: var(--tile-height);
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-left: var(--small-margin);
+    margin-right: var(--small-margin);
+    background-color: var(--white-area);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-column-gap: 5px;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.OverviewTile > .Index {
+  text-align: center;
+}
+
+.OverviewTile > .Text {
+  text-align: left;
+}
+
+.OverviewTile > .Nav {
+  text-align: center;
+}
+
+.LawOverview > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.LawDetails {
+  background-color: white;
+  padding: var(--medium-margin);
+}
+
+.LawDetails > .Title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: var(--medium-margin);
+}
+
+.CatOverview, .Profile {
+  background-color: white;
+  padding: var(--large-margin);
+  text-align: center;
 }

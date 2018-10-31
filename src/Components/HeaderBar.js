@@ -40,7 +40,6 @@ const HeaderBar = (props) => {
   const match = matches[1] || matches[0]
   const header = match.header
   const depth = match.depth
-  console.log(props.history)
   return (
     <div className="HeaderBar">
 

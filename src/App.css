@@ -29,7 +29,11 @@
   --medium-margin: calc(2 * var(--small-margin));
   --large-margin: calc(3 * var(--small-margin));
   --tiny-margin: calc(0.5 * var(--small-margin));
+  --single-line-height: 2rem;
   --tile-height: 5rem;
+  --small-radius: 4px;
+  --medium-radius: calc(2 * var(--small-radius));
+  --large-radius: calc(2 * var(--medium-radius));
 
   --z-index-1: 10;
   --z-index-2: 20;
@@ -92,7 +96,6 @@ a {
   text-align: center;
 }
 
-
 .OverviewTile {
     height: var(--tile-height);
     margin-top: 0.75rem;
@@ -105,6 +108,7 @@ a {
     grid-template-columns: 1fr 6fr 1fr;
     grid-column-gap: 5px;
     align-items: center;
+    border-radius: var(--small-radius);
 }
 
 .OverviewTile > .Index {
@@ -124,19 +128,119 @@ a {
   padding-left: 0;
 }
 
-.LawDetails {
-  background-color: white;
+.DetailHead {
+  background-color: var(--dark-area);
   padding: var(--medium-margin);
 }
 
-.LawDetails > .Title {
+.DetailHead .Tile {
+  background-color: var(--white-area);
+  margin-left: var(--small-margin);
+  margin-right: var(--small-margin);
+  padding: var(--small-margin);
+  border-radius: var(--large-radius);
+}
+
+.DetailHead .Title {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: var(--medium-margin);
+}
+
+.DetailSection {
+  color: var(--dark-text);
+  padding: var(--small-margin);
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: var(--small-margin);
+  margin-right: var(--small-margin);
+  background-color: var(--white-area);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: grid;
+  border-radius: var(--small-radius);
+}
+
+.DetailSection > .Title {
+  font-weight: bold;
+}
+
+.DetailSection .Description ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.DetailSection hr {
+  width: 100%;
+  background-color: var(--dark-text);
 }
 
 .CatOverview, .Profile {
   background-color: white;
   padding: var(--large-margin);
   text-align: center;
+}
+
+.SearchBar {
+    position: relative;
+    height: var(--single-line-height);
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-left: var(--small-margin);
+    margin-right: var(--small-margin);
+}
+
+.SearchBar input {
+  height: 100%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: var(--small-radius);
+  border: none;
+  outline: none;
+  cursor: none;
+  padding-left: var(--medium-margin);
+  padding-right: 25%;
+  color: var(--dark-text);
+  width: calc(100% - var(--medium-margin) - 25%);
+}
+
+.SearchBar input:focus {
+  outline: none;
+}
+
+.SearchBar button {
+  position: absolute;
+  right: 0;
+  height: calc(100% + 2px);
+  width: 22%;
+  border-radius: 0 var(--small-radius) var(--small-radius) 0;
+  border: none;
+  outline: none;
+  color: gray;
+  background-color: var(--white-area);
+}
+
+/* Tile Variation */
+/* .NotFound404 {
+    height: var(--tile-height);
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-left: var(--small-margin);
+    margin-right: var(--small-margin);
+    background-color: var(--white-area);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border-radius: var(--small-radius);
+} */
+
+/* Text Variation */
+.NotFound404 {
+    height: var(--single-line-height);
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-left: var(--small-margin);
+    margin-right: var(--small-margin);
+    display: grid;
+    align-items: center;
+    text-align: center;
 }

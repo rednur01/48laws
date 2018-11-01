@@ -51,7 +51,8 @@
     "title": "Conceal your Intentions",
     "description": "Keep people off-balance and in the dark by never revealing the purpose behind your actions. If they have no clue what you are up to, they cannot prepare a defense. Guide them far enough down the wrong path, envelope them in enough smoke, and by the time they realize your intentions, it will be too late.",
     "keysToPower": [
-      "Part 1: Use decoyed objects of desire and red herrings to throw people off the scent. If at any point in the deception you practice people have the slightest suspicion as to your intentions, all is lost. Do not give them the chance to sense what you are up to: throw them off the scent by dragging red herrings across the path. Use false sincerity, send ambiguous signals, set up misleading objects of desire. Unable to distinguish the genuine from the false, they cannot pick out your real goal.",
+      "Part 1: Use decoyed objects of desire and red herrings to throw people off the scent.",
+      "If at any point in the deception you practice people have the slightest suspicion as to your intentions, all is lost. Do not give them the chance to sense what you are up to: throw them off the scent by dragging red herrings across the path. Use false sincerity, send ambiguous signals, set up misleading objects of desire. Unable to distinguish the genuine from the false, they cannot pick out your real goal.",
       "Most people are open books. They say what they feel, blurt out their opinions at every opportunity and constantly reveal their plans and intentions.",
       "It is easy and natural to always want to talk about one’s feelings and plans for the future, but it takes effort to control your tongue and monitor what you reveal.",
       "Many believe that by being honest and open they are winning people’s hearts and showing their good nature. They are wrong. Honesty bloodies more than it cuts.",
@@ -62,7 +63,8 @@
       "Another powerful tool in throwing people off the scent is false sincerity. People easily mistake sincerity for honesty.",
       "It is important to not go too far in this area. Appear overpassionate and you raise suspicions. Be measured and believable or your ruse will seem the put-on that it is.",
       "To make your false sincerity believable, espouse a belief in honesty and forthrightness as important social values. Do this as publicly as possible. Emphasize your position on this subject by occasionally divulging some heartfelt thought — though only one that is meaningless or irrelevant.",
-      "Part 2: Use smoke screens to disguise your actions. Deception is always the best strategy, but the best deceptions require a screen of smoke to distract people’s attention from your real purpose. The bland exterior — like the unreadable poker face — is often the perfect smoke screen, hiding your intentions behind the comfortable and familiar. If you lead the sucker down a familiar path, he won’t catch on when you lead him into a trap.",
+      "Part 2: Use smoke screens to disguise your actions.",
+      "Deception is always the best strategy, but the best deceptions require a screen of smoke to distract people’s attention from your real purpose. The bland exterior — like the unreadable poker face — is often the perfect smoke screen, hiding your intentions behind the comfortable and familiar. If you lead the sucker down a familiar path, he won’t catch on when you lead him into a trap.",
       "The best deceivers use a bland and inconspicuous front that calls no attention to themselves. They know that extravagant words and gestures immediately raise suspicion.",
       "People can only focus on one thing at a time. It is really too difficult for them to imagine that the bland and harmless person they are dealing with is simultaneously setting up something else.",
       "The simplest form of smokescreen is facial expression.",
@@ -445,7 +447,7 @@
   {
     "number": "24",
     "title": "Play the Perfect Courtier",
-    "description": "The perfect courtier thrives in a world where everything revolves around power and political dexterity. He has mastered the art of indirection; he flatters, yields to superiors, and asserts power over others in the mot oblique and graceful manner. Learn and apply the laws of courtiership and there will be no limit to how far you can rise in the court.",
+    "description": "The perfect courtier thrives in a world where everything revolves around power and political dexterity. He has mastered the art of indirection; he flatters, yields to superiors, and asserts power over others in the most oblique and graceful manner. Learn and apply the laws of courtiership and there will be no limit to how far you can rise in the court.",
     "keysToPower": [
       "Court Society",
       "The successful courtier walks a tightrope — pleasing but not pleasing too much, obeying but somehow distinguishing himself from the other courtiers, while also never distinguishing himself so far as to make the ruler insecure.",
@@ -484,168 +486,499 @@
     "number": "25",
     "title": "Re-Create Yourself",
     "description": "Do not accept the roles that society foists on you. Re-create yourself by forging a new identity, one that commands attention and never bores the audience. Be the master of your own image  rather than letting others define if for you. Incorporate dramatic devices into your public gestures and actions – your power will be enhanced and your character will seem larger than life.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "The character you are born with are inherited, and shaped by your parents, friends and peers. The task is to take control of the process and stop allowing others that ability to limit and mold them.",
+      "Remake yourself. Working on yourself like clay should be one of your greatest and most pleasurable life tasks.",
+      "The first step in the process of self-creation is self-consciousness — being aware of yourself as an actor and taking control of your appearance and emotions.",
+      "The second step is the the creation of a memorable character, one that compels attention and stands out above the other players on the stage.",
+      "Good drama needs more than an interesting appearance, or a single stand-out moment. Drama takes place over time. Rhythm and timing are critical.",
+      "Remember that overacting can be counterproductive — it is another way of spending too much effort trying to attract attention.",
+      "Learn to play many roles, to be whatever the moment requires. Adapt your mask to the situation."
+    ],
+    "reversal": [
+      "There is no reversal to this law: bad acting is bad acting."
+    ]
   },
   {
     "number": "26",
     "title": "Keep Your Hands Clean",
     "description": "You must seem a paragon of civility and efficiency: Your hands are never soiled by mistakes and nasty deeds. Maintain such a spotless appearance by using others as scapegoats and cat’s-paws to disguise your involvement.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Part 1: Conceal Your Mistakes — Have A Scapegoat Around To Take The Blame",
+      "Our good name and reputation depend more on what we conceal than on what we reveal. Everyone makes mistakes, but those who are truly clever manage to hide them, and to make sure someone else is blamed. A convenient scapegoat should always be kept around for such moments.",
+      "The main idea behind scapegoats is the shifting of guilt and sin to an outside figure — be it an object, animal or man — which is then banished and destroyed.",
+      "It is a human response to not look inward after a mistake but look outward and affix blame and guilt on a convenient object.",
+      "The clever knows how to harness this power.",
+      "The practice of scapegoating still lives on today, just indirectly and symbolically.",
+      "A scapegoat can also serve as a warning to others.",
+      "It is often wise to choose the most innocent victim possible as a sacrificial goal. Such people will not be powerful enough to fight you, and their naive protests may be seen as protesting too much, as a sign of their guilt.",
+      "Part 2: Make Use Of The Cat’s Paw",
+      "In the fable, the Monkey grabs the paw of his friend, the Cat, and uses it to fish chestnuts out of the fire, thus getting the nuts he craves, without hurting himself. If there is something unpleasant or unpopular that needs to be done, it is far too risky for you to do the work yourself. You need a cat’s paw — someone who does the dirty, dangerous work for you. The cat’s paw grabs what you need, hurts whom you need hurt, and keeps people from noticing that you are the one responsible. Let someone else be the executioner, or the bearer of bad news, while you bring only joy and glad tidings.",
+      "The truly powerful never seem to be in a hurry or overburdened. While others work their fingers to the bone, they take their leisure.",
+      "You will often find it necessary to expend energy to effect an evil but necessary action. But you must never appear to be this action’s agent. Find a cat’s paw.",
+      "The easiest and most effective way to use a cat’s paw is often to plant information with him that he will then spread to your primary target.",
+      "You may also find cases in which deliberately offering yourself as the cat’s paw will ultimately gain you great power. This is the ruse of the perfect courtier. As the instrument that protects a master or peer from unpleasantness or danger, you gain immense respect."
+    ],
+    "reversal": [
+      "Use both with caution. They are like screens that hide your own involvement in dirty work from the public; if at any moment the screen is lifted and you are seen as the puppet master, the whole dynamic turns around.",
+      "There are moments when it is advantageous to not disguise your involvement or responsibility, but rather take the blame yourself for some mistake. If you have power and are secure in it, you can sometimes ask for forgiveness. It is the ploy of the king who makes a show of his own sacrifices for the good of the people."
+    ]
   },
   {
     "number": "27",
     "title": "Play on People’s Need to Believe to Create a Cultlike Following",
     "description": "People have an overwhelming desire to believe in something. Become the focal point of such desire by offering them a cause, a new faith to follow. Keep your words vague but full of promise; emphasize enthusiasm over rationality and clear thinking. Give your new disciples rituals to perform, ask them to make sacrifices on your behalf. In the absence of organized religion and grand causes, your new belief system will bring you untold power.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "How To Create A Cult In 5 Easy Steps",
+      "Step 1: Keep It Vague; Keep It Simple",
+      "To create a cult, you must first attract attention.",
+      "Do not do this through actions, which are too clear and readable, but through words, which are hazy and deceptive.",
+      "Your initial speeches, conversations and interviews must include 2 elements: the promise of something great and transformative, and total vagueness.",
+      "This connection will stimulate all kinds of hazy dreams in your listeners, who will make their own connections and see what they want to see.",
+      "To make your vagueness attractive, use words of great resonance but cloudy meaning, words full of heat and enthusiasm.",
+      "Fancy titles, use of numbers and creation of new words are helpful. All of these create the impression of specialized knowledge.",
+      "Try to make the subject of your cult new and fresh, so that few will understand it.",
+      "Your appeal should be simple. Most people’s problems have complex causes, and they want to hear that a simple solution will cure their problems.",
+      "Step 2: Emphasize the Visual and the Sensual over the Intellectual",
+      "Once people have begun to gather around you, two dangers will present themselves: boredom and skepticism.",
+      "You need to amuse the bored and fend off the cynics.",
+      "The best way to do this is through theater, or other devices of its kind. Surround yourself with luxury, dazzle your followers with visual splendor, fill their eyes with spectacle.",
+      "Not only will this keep them from seeing the ridiculousness of your ideas, it will also attract more attention, more followers.",
+      "Appeal to all the senses: use incense for scent, soothing music for hearing, colourful charts and graphs for the eye.",
+      "Use the exotic to create theatrical effects.",
+      "Step 3: Borrow the Forms of Organized Religion to Structure the Group",
+      "Create rituals for your followers",
+      "Organize them into a hierarchy, ranking them in grades of sanctity.",
+      "Give them names and titles that resound with religious overtones.",
+      "Ask them for sacrifices that fills your coffers and increase your power.",
+      "To emphasize your gathering’s quasi-religious nature, talk and act like a prophet.",
+      "Step 4: Disguise Your Source of Income",
+      "Your coffers are beginning to fill with your followers’ money. Yet you must never be seen as hungry for money and the power it brings. Disguise your source of income.",
+      "Your followers want to believe that if they follow you, all sorts of good things will fall into their lap. By surrounding yourself with luxury you become living proof of the soundness of your belief system.",
+      "Never reveal that your wealth actually comes from your followers’ pockets; instead make it seem to come from the truth of your methods.",
+      "Step 5: Set Up an Us-Versus-Them Dynamic",
+      "To keep your followers united, you must now do what all religions and belief systems have done: create an us-versus-them dynamic.",
+      "First, make sure your followers believe that they are part of an exclusive club, unified by a bond of common goals.",
+      "Then, to strengthen this bond, manufacture the notion of a devious enemy out to ruin you.",
+      "There is a force of nonbelievers that will do anything to stop you. Any outsider who tries to reveal the charlatan nature of your belief system can now be described as a member of this devious force.",
+      "If you have no enemies, invent one."
+    ],
+    "reversal": [
+      "One reason to create a following is that a group is easier to deceive than an individual.",
+      "However, if at any moment, the group sees through you, you will find yourself facing not one deceived soul but an angry crowd.",
+      "When you play with the emotions of a crowd, you have to know how to adapt. If not, deal with someone one by one."
+    ]
   },
   {
     "number": "28",
     "title": "Enter Action with Boldness",
     "description": "If you are unsure of a course of action, do not attempt it. Your doubts and hesitations will infect your execution. Timidity is dangerous: Better to enter with boldness. Any mistakes you commit through audacity are easily corrected with more audacity. Everyone admires the bold; no one honors the timid.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "We want to avoid tension and conflict and want to be liked by all. We may contemplate a bold action but we rarely bring it to life. We are terrified of the consequences, of what others might think of us.",
+      "We may disguise our timidity as a concern for others, a desire not to hurt or offend, but in fact we are really self-absorbed, worried about ourselves and how others perceive us.",
+      "Few are born bold. Even Napoleon had to cultivate the habit.",
+      "You must practice and develop your boldness. The best place to begin is the world of negotiation.",
+      "If boldness is not natural, neither is timidity. Both are acquired."
+    ],
+    "reversal": [
+      "Boldness should never be the strategy behind all your actions. It is a tactical instrument to be used at the right time.",
+      "Plan and think ahead, and make the final element the bold move that will bring you success."
+    ]
   },
   {
     "number": "29",
     "title": "Plan All the Way to the End",
     "description": "The ending is everything. Plan all the way to it, taking into account all the possible consequences, obstacles, and twists of fortune that might reverse your hard work and give the glory to others. By planning to the end you will not be overwhelmed by circumstances and you will know when to stop. Gently guide fortune and help determine the future by thinking far ahead.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Most people are too imprisoned in the moment to plan with this kind of foresight.",
+      "The ability to ignore immediate pleasure or dangers translates into power.",
+      "It is the power of being able to overcome the natural human tendency to react to things as they happen, and instead to train oneself to step back, imagining the larger things taking shape beyond one’s immediate vision.",
+      "The ending is everything. It is the end of the action that determines who gets the glory, the money, the prize. Your conclusion must be crystal clear, and you must keep it constantly in mind."
+    ],
+    "reversal": [
+      "Your plan must include alternatives and have a degree of flexibility. Build in alternatives and be open to new routes towards your goal."
+    ]
   },
   {
     "number": "30",
     "title": "Make your Accomplishments Seem Effortless",
     "description": "Your actions must seem natural and executed with ease. All the toil and practice that go into them, and also all the clever tricks, must be concealed. When you act, act effortlessly, as if you could do much more. Avoid the temptation of revealing how hard you work – it only raises questions. Teach no one your tricks or they will be used against you.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "As humans, we admire things that move effortlessly and easily.",
+      "It’s the idea of sprezzatura, the capacity to make the difficult seem easy. All the great Renaissance artists carefully kept their works under wraps. Only the finished masterpiece could be shown to the public. They knew that the making of the works would mar the magic of their effect, and their studied atmosphere of ease and natural beauty.",
+      "When you reveal the inner workings of your creation, you become just one more mortal among others. What is understandable is not awe-inspiring, we tell ourselves we could do as well if we had the time and money.",
+      "One reason to conceal your tricks and shortcuts: when you let this information out, you give people ideas they can use against you. You lose the advantages of keeping silent."
+    ],
+    "reversal": [
+      "The secrecy with which you surround your actions must seem lighthearted in spirit. A zeal to conceal your work makes you look like you’re taking the game too seriously.",
+      "There are also times when revealing the inner working of your projects can prove worthwhile. It all depends on your audience’s taste, and on the times in which you operate."
+    ]
   },
   {
     "number": "31",
     "title": "Control the Options: Get Others to Play with the Cards you Deal",
     "description": "The best deceptions are the ones that seem to give the other person a choice: Your victims feel they are in control, but are actually your puppets. Give people options that come out in your favor whichever one they choose. Force them to make choices between the lesser of two evils, both of which serve your purpose. Put them on the horns of a dilemma: They are gored wherever they turn.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "When examined closely, the choices we have, in the marketplace, elections, jobs, tend to have noticeable limitations: they are often a matter of a choice simply between A and B, with the rest of the alphabets out of the picture.",
+      "Yet as long as the faintest mirage of choice flickers on, we rarely focus on the missing options. We “choose” to believe that the game is fair and that we have our freedom.",
+      "This unwillingness to probe the smallness of our choices stems from the fact that too much freedom creates a kind of anxiety. Unlimited options would paralyze us and cloud our ability to choose.",
+      "Therefore, setting up a narrow range of choices should always be part of your deceptions.",
+      "Forms of 'Controlling the Options'",
+      "1. Colour the Choices",
+      "Propose 3–4 choices of action for each situation, and present them in a way that the one you prefer always seemed the best solution compared to the others.",
+      "2. Force the Resister",
+      "Push people to 'choose' what you want them to do by appearing to advocate the opposite.",
+      "3. Alter the Playing Field",
+      "The 1860s, John D. Rockefeller set out to create an oil monopoly. Instead of buying the smaller oil companies (who would fight back), he bought the railway companies that transported the oil. When he attempted to take over the company and was met with resistance, he would remind them of their dependence on the rails.",
+      "4. The Shrinking Options",
+      "E.g you can raise the price every time a buyer hesitates and another day goes by.",
+      "5. Weak Man on the Precipice",
+      "This is used for the weak. Work on their emotions, use fear and terror to propel people into action. If you use reason, they will procrastinate.",
+      "6. Brothers in Crime",
+      "It is often wise to implicate in your deceptions the very person who can do you the most harm if you fail.",
+      "7. Horns of a Dilemma",
+      "Strike quickly and deny the victim the time to think of an escape. They will be stuck and hurt themselves."
+
+    ],
+    "reversal": [
+      "Controlling the options has one main purpose — disguise yourself as the agent of power and punishment. The tactic works best for those whose power is fragile and cannot operate too openly without incurring suspicion, resentment and anger.",
+      "It is rarely wise to be seen as exerting power directly and forcefully, no matter how strong or secure you are. It is usually more elegant and more effective to give people the illusion of choice."
+    ]
   },
   {
     "number": "32",
     "title": "Play to People’s Fantasies",
     "description": "The truth is often avoided because it is ugly and unpleasant. Never appeal to truth and reality unless you are prepared for the anger that comes for disenchantment. Life is so harsh and distressing that people who can manufacture romance or conjure up fantasy are like oases in the desert: Everyone flocks to them. There is great power in tapping into the fantasies of the masses.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "The person who can spin a fantasy out of an oppressive reality has access to untold power. As you search for the fantasy that will take hold of the masses, keep your eye on the banal truths that weigh heavily on us all.",
+      "Never be distracted by people’s glamorous portraits of themselves and their lives; search and dig for what really imprisons them.",
+      "Once you find that, you have the magical key that will put great power in your hands.",
+      "A Few Realities & Fantasies",
+      "The Reality: change is slow and gradual. It requires hard work, a bit of luck, a fair amount of self-sacrifice and a lot of practice.",
+      "The Fantasy: a sudden transformation will bring a total change in one’s fortunes, bypassing work, luck, self-sacrifice and time in one fantastic stroke.",
+      "The Reality: the social realm has hard-set codes and boundaries. We understand these limits and know that we have to move within the same familiar circles, day in and day out.",
+      "The Fantasy: we can enter a totally new world with different codes and the promise of adventure, skirting the sexual and relief from boredom.",
+      "The Reality: society is fragmented and full of conflict.",
+      "The Fantasy: people can come together in a mystical union of souls.",
+      "The Reality: death. The dead cannot be brought back, the past cannot be changed.",
+      "The Fantasy: a sudden reversal of this intolerable fact.",
+      "The key to fantasy is distance. The distant has allure and promise, seems simple and problem free. What you are offering should be ungraspable."
+    ],
+    "reversal": [
+      "Never come too close to the place where you are actually expected to produce results.",
+      "Never make the mistake of imagining that fantasy is always fantastical."
+    ]
   },
   {
     "number": "33",
     "title": "Discover Each Man’s Thumbscrew",
     "description": "Everyone has a weakness, a gap in the castle wall. That weakness is usual y an insecurity, an uncontrollable emotion or need; it can also be a small secret pleasure. Either way, once found, it is a thumbscrew you can turn to your advantage.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Finding The Thumbscrew",
+      "1. Pay attention to gestures and unconscious signals",
+      "The key is not only what you look for but where and how you look.",
+      "Everyday conversation supplies the richest mine of weaknesses, so train yourself to listen.",
+      "Start by always seeming interested",
+      "Appear to open up to the other person, share a secret with them.",
+      "If you suspect someone has a particular soft spot, probe on it indirectly.",
+      "Find people’s idols, the things they worship and will do anything to get.",
+      "2. Find the helpless child",
+      "Most weaknesses begin in childhood, before the self builds up compensatory defenses.",
+      "Knowing about a childhood need gives you a powerful key to a person’s weakness.",
+      "One sign of this weakness is when you touch on it, the person will often act like a child.",
+      "3. Look for contrasts",
+      "An overt trait often conceals its opposite. E.g people who thump their chest are often cowards.",
+      "4. Find the weak link",
+      "Sometimes it is not what but who that matters.",
+      "The behind-the-scenes powerbrokers are the group’s weak links: win their favour and you influence the king.",
+      "There is always a weak link in the chain — find the one person who will bend under pressure.",
+      "5. Fill the void",
+      "The two main emotional voids are insecurity and unhappiness.",
+      "6. Feed on uncontrollable emotions",
+      "Can be paranoid fear, lust, greed, vanity or hatred"
+    ],
+    "reversal": [
+      "Playing on people’s weakness has one significant danger — you may stir up an action you cannot control.",
+      "Know your limits to this game and never get carried away by your control over your victims."
+    ]
   },
   {
     "number": "34",
     "title": "Be Royal in your Own Fashion: Act like a King to be treated like one",
     "description": "The way you carry yourself will often determine how you are treated; In the long run, appearing vulgar or common will make people disrespect you. For a king respects himself and inspires the same sentiment in others. By acting regally and confident of your powers, you make yourself seem destined to wear a crown.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "We accept limitations that are self-imposed. The solution is to deliberately force ourselves in the opposite direction — downplay the failures and ignore the limitations, make ourselves demand and expect as much as a child.",
+      "The Strategy of the Crown is based on a simple chain of cause and effect: if we believe we are destined for great things, our belief will radiate outward, which will infect the people around us, who will think we must have reasons to feel so confident.",
+      "Be overcome by your self-belief. Even while you know you are practicing a kind of deception on yourself, act like a king. You are likely to be treated as one.",
+      "Always act with dignity, no matter the circumstance.",
+      "Regal bearing should not be confused with arrogance. Arrogance may seem the king’s entitlement, but it betrays insecurity.",
+      "Outward strategies to projecting a royal demeanor: make a hold demand. Set your price high and do not waver.",
+      "Go after the highest person in the building. This immediately puts you on the same plane as the chief executive you are attacking. By choosing a great opponent, you create the appearance of greatness.",
+      "Give some sort of gift to those above you."
+    ],
+    "reversal": [
+      "The idea behind a regal demeanour is to set yourself apart from other people. But if you take this too far, it will be your undoing. Never make the mistake of thinking that you elevate yourself by humiliating people."
+    ]
   },
   {
     "number": "35",
     "title": "Master the Art of Timing",
     "description": "Never seem to be in a hurry – hurrying betrays a lack of control over yourself, and over time. Always seem patient, as if you know that everything will come to you eventually. Become a detective of the right moment; sniff out the spirit of the times, the trends that will carry you to  power. Learn to stand back when the time is not yet ripe, and to strike fiercely when it has reached fruition.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Time is an artificial concept created by humans. Since it is human-constructed, we can mold it to some degree, to play tricks with it.",
+      "Time depends on perception, which we can alter.",
+      "If the inner turmoil caused by our emotions tends to make time move faster, it follows that once we control our emotional responses to events, time will move much more slowly.",
+      "This altered way of dealing with things tends to lengthen our perception of future time, opens up possibilities that fear and anger close off and allows us the patience that is the requirement of timing.",
+      "3 Kinds Of Time",
+      "1. Long Time",
+      "The drawn-out, years-long kind of time that must be managed with patience and gentle guidance",
+      "When you force the pace out of fear and impatience, you create a nest of problems that require fixing, and you end up taking much longer if you had taken your time.",
+      "Sometimes not acting in the face of danger is your best move — you wait and deliberately slow down.",
+      "When your mind is uncluttered by constant emergencies you will see further into the future. You will also be able to resist the baits people dangle in front of you. You will also have room to be flexible. You will not move from one deal to another without completing the first one.",
+      "2. Forced Time",
+      "The short-term time we can manipulate as an offensive weapon, upsetting the timing of our opponents.",
+      "Make them wait, make them hurry, make them abandon their own pace, distort their perception of time",
+      "The deadline is a type of forced time.",
+      "3. End Time",
+      "When a plan must be executed with speed and force"
+    ],
+    "reversal": [
+      "There is no reversal."
+    ]
   },
   {
     "number": "36",
     "title": "Disdain Things you cannot have: Ignoring them is the best Revenge",
     "description": "By acknowledging a petty problem you give it existence and credibility. The more attention you pay an enemy, the stronger you make him; and a small mistake is often made worse and more visible when you try to fix it. It is sometimes best to leave things alone. If there is something you want but cannot have, show contempt for it. The less interest you reveal, the more superior you seem.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Desire often creates paradoxical effects — the more you want something, the more you chase after it, the more it eludes you.",
+      "Turn your back on what you want, show your contempt and disdain. This kind of response drives your targets crazy.",
+      "They will respond with a desire of their own, which is simply to have an effect on you.",
+      "Contempt is the prerogative of the king.",
+      "Commitment and engagement often weakens you. By paying undue attention to a puny enemy, you look puny and the longer it takes you to crush such an enemy, the larger the enemy seems.",
+      "And if you succeed in crushing the irritant, you create sympathy for the weaker side.",
+      "It is tempting to want to fix our mistakes, but the harder we try, the worse we often make them. It is sometimes more politic to leave them alone.",
+      "Instead of inadvertently focusing attention on a problem, making it seem worse by publicizing how much concern and anxiety it is causing you, it is often far wiser to play the contemptuous aristocrat, not deigning to acknowledge the problem’s existence.",
+      "Several ways to execute this strategy:",
+      "Sour-Grapes: don’t complain and draw attention to your disappointment. Act as if it never interested you in the first place.",
+      "When you are attacked by an inferior, deflect people’s attention by making it clear that the attack did not even register. Though, among equals this tactic might backfire."
+    ],
+    "reversal": [
+      "Play the card of contempt with care and delicacy. Most small troubles will vanish on their own if you leave them be; but some will grow and fester unless you attend to them.",
+      "Learn to distinguish between the potentially disastrous and the mildly irritating."
+    ]
   },
   {
     "number": "37",
     "title": "Create Compelling Spectacles",
     "description": "Striking imagery and grand symbolic gestures create the aura of power – everyone responds to them. Stage spectacles for those around you, then full of arresting visuals and radiant symbols that heighten your presence. Dazzled by appearances, no one will notice what you are really doing.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "The visual can strike us with an emotional power and immediacy that leave no gaps for reflection and doubt.",
+      "Words put you on the defensive; the image imposes itself as a given.",
+      "The symbol has the same force.",
+      "Never neglect the way you arrange things visually. Factors like colour have enormous symbolic resonance.",
+      "Most effective of all is a new combination — a fusion of images and symbols that have not been seen together before, but that through their association clearly demonstrate your new idea, message or religion.",
+      "Use the power of symbols to rally, animate and unite your troops or team.",
+      "The best way to use images and symbols is to organize them into a grand spectacle that awes people and distracts them from unpleasant realities."
+    ],
+    "reversal": [
+      "There is no reversal."
+    ]
   },
   {
     "number": "38",
     "title": "Think as you like but Behave like others",
     "description": "If you make a show of going against the times, flaunting your unconventional ideas and unorthodox ways, people will think that you only want attention and that you look down upon them. They will find a way to punish you for making them feel inferior. It is far safer to blend in and nurture the common touch. Share your originality only with tolerant friends and those who are sure to appreciate your uniqueness.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "We all tell lies and hide our true feelings, for complete free expression is a social impossibility.",
+      "There are people who see such restraints as an intolerable infringement on their freedom, and who have a need to prove the superiority of their values and beliefs.",
+      "In the end, their arguments convince only a few and offend a great deal more. The reason arguments do not work is that most people hold their ideas and values without thinking about them.",
+      "Wise and clever people learn early on that they can display conventional behaviour and mouth conventional ideas without having to believe in them.",
+      "They get to be left alone to have the thoughts they want to have, and to express them to the people they want to express them to, without suffering isolation or ostracism.",
+      "The logical extension of this practice is the invaluable ability to be all things to all people. People will swallow the bait because it flatters them to believe that you share their ideas."
+    ],
+    "reversal": [
+      "The only time worth standing out is when you already stand out — when you have achieved an unshakable position of power, and can display your difference from others as a sign of distance between you.",
+      "There is always a place for the gadfly, the person who successfully defies custom and mocks what has grown lifeless in a culture."
+    ]
   },
   {
     "number": "39",
     "title": "Stir up Waters to Catch Fish",
     "description": "Anger and emotion are strategically counterproductive. You must always stay calm and objective. But if you can make your enemies angry while staying calm yourself, you gain a decided advantage. Put your enemies off-balance: Find the chink in their vanity through which you can rattle them and you hold the strings.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Anger is not power, but a sign of helplessness. People may temporarily be cowed by your tantrums, but in the end they lose respect for you. They also realize they can easily undermine a person with so little self-control.",
+      "The answer is not to repress our anger or emotional responses. It is to change our perspective — that nothing in the social and power realm is personal.",
+      "Anger cuts off our options, and the powerful cannot thrive without options.",
+      "Once you have trained yourself not to take matters personally, you can play with the emotional responses of other people.",
+      "In the face of a hot-headed enemy, an excellent response is no response. Nothing is as infuriating as a man who keeps his cool while others are losing theirs."
+    ],
+    "reversal": [
+      "When playing with people’s emotions you have to be careful. Study the enemy beforehand: some fish are best left at the bottom of the pond.",
+      "There are also times where a well-timed burst of anger can do you good, but your anger must be manufactured and under your control. Then you can determine exactly how and on whom it will fall."
+    ]
   },
   {
     "number": "40",
     "title": "Despise the Free Lunch",
     "description": "What is offered for free is dangerous – it usually involves either a trick or a hidden obligation. What has worth is worth paying for. By paying your own way you stay clear of gratitude, guilt, and deceit. It is also often wise to pay the full price – there is no cutting corners with excellence. Be lavish with your money and keep it circulating, for generosity is a sign and a magnet for power.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "In the realm of power, everything must be judged by its cost, for everything has a price. What is offered for free or at a bargain often comes with a psychological price tag — complicated feelings of obligation, compromises with quality, the insecurity these comprises bring etc.",
+      "The powerful learn early to protect their most valuable resource: independence and room to maneuver.",
+      "Being open and flexible also teaches the value of strategic generosity.",
+      "Recognize These 4 Types And Avoid Them/Use Them:",
+      "1. The Greedy Fish",
+      "They take the human side out of money. They view others solely as pawns or obstructions in their pursuit of wealth.",
+      "2. The Bargain Demon",
+      "They waste time digging for bargains, worry endlessly about what they could have gotten elsewhere for a little less.",
+      "They might seem to only harm themselves, but their attitudes are contagious.",
+      "3. The Sadist",
+      "They play vicious power games with money as a way of asserting their power.",
+      "They think that paying for something gives them the right to torture and abuse the seller.",
+      "4. The Indiscriminate Giver",
+      "They are generous because they want to be loved and admired by all.",
+      "Their generosity is needy and may not have the desired effect."
+    ],
+    "reversal": [
+      "This Law offers great opportunities for swindling and deception if you apply it from the other side. Dangling the lure of a free lunch is the con artist’s stock in trade."
+    ]
   },
   {
     "number": "41",
     "title": "Avoid Stepping into a Great Man’s Shoes",
     "description": "What happens first always appears better and more original than what comes after. If you succeed a great man or have a famous parent, you will have to accomplish double their achievements to outshine them. Do not get lost in their shadow, or stuck in a past not of your own making: Establish your own name and identity by changing course. Slay the overbearing father, disparage his legacy, and gain power by shining in your own way.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "The simplest way to escape the shadow of the past is simply to belittle it, playing on the timeless antagonism between the generations, stirring up the young against the old.",
+      "Never let yourself be seen as following your predecessors. If you do you will never surpass him. You must physically demonstrate your difference, by establishing a style and symbolism that sets you apart.",
+      "Hunt out the vacuums, the areas in culture that have been left vacant and in which you can become the first and principal figure to shine.",
+      "There is a kind of stubborn stupidity that recurs throughout history — the superstitious belief that if the person before you succeeded by doing A, B and C, you can re-create their success by doing the same thing. However, circumstances never repeat themselves exactly.",
+      "Remember: you are your own father. Do not let yourself spend years creating yourself only to let your guard down and allow the ghost of the past — father, habit, history — to sneak back in.",
+      "Be prepared to return to square one psychologically."
+    ],
+    "reversal": [
+      "The shadow of a predecessor can be used to your advantage if it is chosen as a trick, a tactic that can be discarded once it has brought you power.",
+      "The past often has elements worth appropriating, qualities that would be foolish to reject out of a need to distinguish yourself."
+    ]
   },
   {
     "number": "42",
     "title": "Strike the Shepherd and the Sheep will Scatter",
     "description": "Trouble can often be traced to a single strong individual – the stirrer, the arrogant underling, the poisoned of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them – they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "In every group, power is concentrated in the hands of one or two people — for people will congregate around a single strong personality.",
+      "Powerful people keep their eye on the inevitable few who hold the cards.",
+      "Understanding who controls the group dynamic is a critical realization.",
+      "A key element in games of strategy is isolating the enemy’s power.",
+      "Always seek out people who hold high positions yet who find themselves isolated on the board. They are easily seduced."
+    ],
+    "reversal": [
+      "If you act to isolate your enemy, make sure he lacks the means to repay the favour."
+    ]
   },
   {
     "number": "43",
     "title": "Work on the Hearts and Minds of Others",
     "description": "Coercion creates a reaction that will eventually work against you. You must seduce others into wanting to move in your direction. A person you have seduced becomes your loyal pawn. And the way to seduce others is to operate on their individual psychologies and weaknesses. Soften up the resistant by working on their emotions, playing on what they hold dear and what they fear. Ignore the hearts and minds of others and they will grow to hate you.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "In the game of power, you are surrounded by people who have absolutely no reason to help you unless it is in their self-interest to do so. And if you have nothing to offer, you are likely to make them hostile.",
+      "Those that overcome this hostility are the ones who find the key that unlocks the stranger’s heart and mind, seducing him into their corner, if necessary softening him up for a punch.",
+      "Most people never learn this. They talk about themselves, eager to impose their own willpower and prejudices.",
+      "The key to persuasion is softening people up and breaking them down gently. Work on their emotions and play on their intellectual weaknesses Be alert to both what separates them from everyone one else, and what they share with everyone else.",
+      "The quickest way to secure people’s minds is by demonstrating how an action will benefit them.",
+      "The winder your support base, the stronger your power."
+    ],
+    "reversal": [
+      "There is no reversal"
+    ]
   },
   {
     "number": "44",
     "title": "Disarm and Infuriate with the Mirror Effect",
     "description": "The mirror reflects reality, but it is also the perfect tool for deception: When you mirror your enemies, doing exactly as they do, they cannot figure out your strategy. The Mirror Effect mocks and humiliates them, making them overreact. By holding up a mirror to their psyches, you seduce them with the illusion that you share their values; by holding up a mirror to their actions, you teach them a lesson. Few can resist the power of Mirror Effect.",
-    "keysToPower": [],
+    "keysToPower": [
+      "Gazing at our reflection in the mirror, we most often see what we want to see- the image of ourselves which we are most comfortable.",
+      "But if we look hard at the reflected image, we sometimes feel that we are seeing ourselves as others see us, as a person among other people, an object. That feeling makes us shudder.",
+      "Four Main Mirror Effects",
+      "Neutralizing Effect",
+      "Do what your enemies do, following their actions as best you can, and they cannot see what you are up to — they are blinded by your mirror.",
+      "Neutralize their strategy by playing a game of mimicry with them.",
+      "2. Narcissus Effect",
+      "You look deep into the souls of other people; fathom their innermost desires, their values, their tastes, their spirits and you reflect it back to them.",
+      "3. Moral Effect",
+      "You teach others a lesson by giving them a taste of their own medicine.",
+      "You mirror what other people have done to you, and do so in a way that makes them realize you are doing to them exactly what they did to you.",
+      "4. Hallucinatory Effect",
+      "Create a perfect copy of an object, a place, a person. The copy acts as a kind of dummy, people take it for the real thing, because it has the physical appearance of the real thing.",
+      "A Warning: Beware of Mirrored Situations",
+      "A situation that seems to reflect or closely resemble a previous one, mostly in style or surface appearance. You can often back into such a situation without fully understanding it.",
+      "Avoid such association-effects."
+    ],
     "reversal": []
   },
   {
     "number": "45",
     "title": "Preach the Need for Change, but Never Reform too much at Once",
     "description": "Everyone understands the need for change in the abstract, but on the day-to-day level people are creatures of habit. Too much innovation is traumatic, and will lead to revolt. If you are new to a position of power, or an outsider trying to build a power base, make a show of respecting the old way of doing things. If change is necessary, make it feel like a gentle improvement on the past.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Human psychology contains many dualities — one being that while people understand the need for change, they are also irritated and upset by changes that affect them personally.",
+      "Preach change as much as you like, but give them the comforting appearance of older events and traditions.",
+      "Another strategy to disguise change is to make a loud and public display of support for the values of the past.",
+      "The answer to the innate conservatism is to play the courtier’s game. Pay lip service to tradition. Identify elements in your revolution that can be made to seem to build on the past."
+    ],
+    "reversal": [
+      "The past is a corpse to be used as you see fit. If what happened in the recent past was painful and harsh, it is self-destructive to associate yourself with it.",
+      "If you make a bold change from the past, you must avoid at all costs the appearance of a void or vacuum, or you will create terror. Fill that space immediately with new rituals and forms."
+    ]
   },
   {
     "number": "46",
     "title": "Never appear too Perfect",
     "description": "Appearing better than others is always dangerous, but most dangerous of all is to appear to have no faults or weaknesses. Envy creates silent enemies. It is smart to occasionally display defects, and admit to harmless vices, in order to deflect envy and appear more human and approachable. Only gods and the dead can seem perfect with impunity.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "The human has a hard time dealing with feelings of inferiority. In the face of superior skill, talent or power, we are often disturbed or ill at ease — because most of us have an inflated sense of ourselves. When we meet people who surpass us they make it clear to us that we are in fact mediocre.",
+      "We feel envy.",
+      "Accept the fact that there will be people who will surpass you in some way — and also the fact that you may envy them. Make that feeling a way of pushing yourself to equal or surpass them some day.",
+      "Let envy turn inwards and it poisons the soul; expel it outwards and it can move you to greater heights.",
+      "Understand that as you gain power, those below you will feel envious of you.",
+      "Expect that when people envy you they will work against you insidiously.",
+      "To deflect envy, subtly emphasize how lucky you have been, to make your happiness seem more attainable to other people.",
+      "Disguise your power as a kind of self-sacrifice rather than a source of happiness — and you make it seem less enviable. Emphasize your troubles and you turn a potential danger into a source of moral support.",
+      "Be aware that some environments are more conducive to envy than others.",
+      "Do not try to help or do favours for those who envy you; they will think you are condescending to them."
+    ],
+    "reversal": [
+      "Act before envy takes root.",
+      "However, once envy is there, it is sometimes best to affect the opposite approach — display the utmost disdain for those who envy you."
+    ]
   },
   {
     "number": "47",
     "title": "Do not go Past the Mark you Aimed for; In Victory, Learn when to Stop",
     "description": "The moment of victory is often the moment of greatest peril. In the heat of victory, arrogance and overconfidence can push you past the goal you had aimed for, and by going too far, you make more enemies than you defeat. Do not allow success to go to your head. There is no substitute for strategy and careful planning. Set a goal, and when you reach it, stop.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "The powerful vary their rhythms and patterns, change course, adapt to circumstance and learn to improvise. Rather than letting their dancing feet impel them forward, they step back and look where they are going.",
+      "Luck and circumstance always play a role in power. Bad luck teaches valuable lessons about patience, timing and the need to be prepared for the worst; good luck deludes you into the opposite lesson, making you think your brilliance will carry you through."
+    ],
+    "reversal": [
+      "Either destroy a man or leave him alone entirely. When you beat an enemy, make your victory complete. Crush him into nonexistence."
+    ]
   },
   {
     "number": "48",
     "title": "Assume Formlessness",
     "description": "By taking a shape, by having a visible plan, you open yourself to attack. Instead of taking a form for your enemy to grasp, keep yourself adaptable and on the move. Accept the fact that nothing is certain and no law is fixed. The best way to protect yourself is to be as fluid and formless as water; never bet on stability or lasting order. Everything changes.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "The powerful are often people who in their youth have shown immense creativity in expressing something new through a new form. Society grants them power because it hungers for and rewards this sort of newness.",
+      "The problem comes later when they often grow conservative and possessive. They no longer dream of creating new forms; their identities are set, their habits congeal and their rigidity make them easy targets.",
+      "The formlessness of power is more like that of water, taking the form of whatever is around it.",
+      "Human creations evolve towards abstraction, toward being mental and less material.",
+      "The first psychological requirement of formlessness is to train yourself to take nothing personally. Never show any defensiveness.",
+      "In evolution, largeness is often the first step towards extinction. What is immense and bloated has no mobility, but must constantly feed itself. The unintelligent are often seduced into believing that size connotes power, the bigger the better.",
+      "Learning to adapt to each new circumstance means seeing events through your own eyes, and often ignoring the advice that people constantly peddle your way. It means that ultimately you must throw out the laws that others preach, the books they write to tell you what to do, and the sage advice of the elder.",
+      "Rely too much on other people’s ideas and you end up taking a form not of your own making. Too much respect for other people’s wisdom will make you depreciate your own."
+    ],
+    "reversal": [
+      "When you play with formlessness, keep on top of the process, and keep your long-term strategy in mind. When you assume a form and go on the attack, use concentration, speed and power."
+    ]
   }
 ]

@@ -182,112 +182,302 @@
     "number": "9",
     "title": "Win through your Actions, Never through Argument",
     "description": "Any momentary triumph you think gained through argument is really a Pyrrhic victory: The resentment and ill will you stir up is stronger and lasts longer than any momentary change of opinion. It is much more powerful to get others to agree with you through your actions, without saying a word. Demonstrate, do not explicate.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "In the realm of power, you must learn to judge your moves by their long-term effects on people.",
+      "The problem with trying to prove a point through argument is that in the end you can never be certain how it affects the people you’re arguing with. They may appear to agree with you politely, but inside they may resent you.",
+      "No one can argue with demonstrated proof. They are there, right before our eyes to see."
+    ],
+    "reversal": [
+      "Verbal argument has one vital use in the realm of power: to distract and cover your tracks when you are practicing deception or are caught in a lie. Draw the other person into an argument to distract them from your deceptive move.",
+      "When caught in a lie, the more emotional and certain you appear, the less likely it seems that you are lying."
+    ]
   },
   {
     "number": "10",
     "title": "Infection: Avoid the Unhappy and Unlucky",
     "description": "You can die from someone else’s misery – emotional states are as infectious as disease. You may feel you are helping the drowning man but you are only precipitating your own disaster. The unfortunate sometimes draw misfortune on themselves; they will also draw it on you. Associate with the happy and fortunate instead.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Those misfortunates who have been brought down by circumstances beyond their control deserve all the help and sympathy we can give them.",
+      "But there are others who are not born to misfortune or unhappiness, but who draw it upon themselves by their destructive actions and unsettling effect on others.",
+      "It would be a great thing if we could raise them up, change their patterns but more often than not it is their patterns that end up getting inside and changing us.",
+      "In the game of power, the people you associate with are critical.",
+      "The risk of associating with infectors is that you will waste valuable time and energy trying to free yourself.",
+      "One of the most insidious infectors is the suffer from chronic dissatisfaction (or the jealous, complaining type.)",
+      "There is only solution to infection: quarantine. Do not take pity, do not enmesh yourself in trying to help.",
+      "Positive qualities can infect us. Associate with people who attract happiness to themselves."
+    ],
+    "reversal": [
+      "There is no reversal. The application is universal. Ignore this law at your peril."
+    ]
   },
   {
     "number": "11",
     "title": "Learn to Keep People Dependent on You",
     "description": "To maintain your independence you must always be needed and wanted. The more you are relied on, the more freedom you have. Make people depend on you for their happiness and prosperity and you have nothing to fear. Never teach them enough so that they can do without you.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "The ultimate power is the power to get people to do as you wish. When you can do this without having to force people or hurt them, when they willingly grant you what you desire, then your power is untouchable.",
+      "The best way to do this is to create a relationship of dependence. The master requires your services; he is weak or unable to function without you; you have enmeshed yourself in his work so deeply that doing away with you would bring him great difficulty. Once such a relationship is established, you have the upper hand.",
+      "The ultimate form of power is not independence. The completely independent man would love in a cabin in the woods, but he would have no power. The best you can hope for is that others will grow so dependent on you that you enjoy a kind of reverse independence: their need for you frees you.",
+      "One way to obtain this position: possess a talent or creative skill that simply cannot be replaced.",
+      "Having the appearance of specialized knowledge and skill gives you leeway in your ability to deceive those above you into thinking that cannot do without you."
+    ],
+    "reversal": [
+      "By making others depend on you also means you are in some measure dependent on them.",
+      "No independence comes without a price. You are forced to isolate yourself. Monopolies often turn inwards and destroy themselves from the internal pressure.",
+      "Interdependence remains the law, independence a rare and often fatal exception."
+    ]
   },
   {
     "number": "12",
     "title": "Use Selective Honesty and Generosity to Disarm your Victim",
     "description": "One sincere and honest move will cover over dozens of dishonest ones. Open-hearted gestures of honesty and generosity bring down the guard of even the most suspicious people. Once your selective honesty opens a hole in their armor, you can deceive and manipulate them at will. A timely gift – a Trojan horse – will serve the same purpose.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "An act of kindness, generosity or honesty is often the most powerful form of distraction because it disarms other people’s suspicions.",
+      "Learn to give before you take.",
+      "Selective honesty is best employed on your first encounter with someone. We are all creatures of habit, and our first impressions last a long time. If someone believe you are honest at the start of your relationship it takes a lot to convince them otherwise.",
+      "A single act of honesty is often not enough. What is required is a reputation for honesty, built on a series of acts."
+    ],
+    "reversal": [
+      "When you have a history of deceit, no amount of honesty will fool people. In these cases, it’s better to play the rogue."
+    ]
   },
   {
     "number": "13",
     "title": "When Asking for Help, Appeal to People’s Self-Interest, Never to their Mercy or Gratitude",
     "description": "If you need to turn to an ally for help, do not bother to remind him of your past assistance and good deeds. He will find a way to ignore you. Instead, uncover something in your request, or in your alliance with him, that will benefit him, and emphasize it out of all proportion. He will respond enthusiastically when he sees something to be gained for himself.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "There is an art to asking for help, an art that depends on your ability to understand the person you are dealing with, and to not confuse your needs with theirs.",
+      "Most people never succeed at this, because they are completely trapped in their own wants and desires. They start from the assumption that the people they are appealing to have a selfless interest in helping them.",
+      "Even the most powerful person is locked inside needs of his own, and if you make no appeal to his self-interest, he merely sees you as desperate, or a waste of time.",
+      "Self-interest is the lever that will move people. Train yourself to think your way inside the other person’s mind, to see their needs and interests, to get rid of the screen of your own feelings that obscure the truth."
+    ],
+    "reversal": [
+      "Some people will see an appeal to their self-interest as ugly and ignoble. They prefer to exercise charity, mercy and justice as a way of feeling superior to you.",
+      "When you beg them for help, you emphasize their position and power. They are strong enough to need nothing from you except the chance to feel superior. This is the wine that intoxicates them.",
+      "Do not be shy. Give them that opportunity."
+    ]
   },
   {
     "number": "14",
     "title": "Pose as a Friend, Work as a Spy",
     "description": "Knowing about your rival is critical. Use spies to gather valuable information that will keep you a step ahead. Better still: Play the spy yourself. In polite social encounters, learn to probe. Ask indirect questions to get people to reveal their weaknesses and intentions. There is no occasion that is not an opportunity for artful spying.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "People won’t tell you all their thoughts, emotions and plans. As such, you cannot predict their movies and are constantly in the dark.",
+      "The trick is to find a way to probe them, to find out their secrets and hidden intentions, without letting them know what you are up to.",
+      "The most common way of spying is to use other people. The method is simple, powerful but risky — risked being exposed, or fed wrong information.",
+      "It is better to be the spy, pose as a friend while secretly gathering info.",
+      "Practice this tactic with caution and care. If people begin to suspect you are worming secrets out of them under the banner of conversation, they will avoid you. Emphasize friendly chatter, not valuable information.",
+      "By pretending to bare your heart to another person, you make them more likely to reveal their own secrets."
+    ],
+    "reversal": [
+      "Just as you spy on other people, you must be prepared for others to spy on you.",
+      "You can feed wrong information."
+    ]
   },
   {
     "number": "15",
     "title": "Crush your Enemy Totally",
     "description": "All great leaders since Moses have known that a feared enemy must be crushed completely. (Sometimes they have learned this the hard way.) If one ember is left alight, no matter how dimly it smolders, a fire will eventually break out. More is lost through stopping halfway than through total annihilation: The enemy will recover, and will seek revenge. Crush him, not only in body but in spirit.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Your enemies wish you ill. There is nothing they want more than to eliminate you. If, in your struggles with them, you stop halfway out of mercy or hope of reconciliation, you only make them more determined, more embittered and they will someday take revenge.",
+      "Have no mercy. Crush them totally. Allow your enemies no options.",
+      "The goal of power is to control your enemies completely, to make them obey your will. You cannot afford to go halfway."
+    ],
+    "reversal": [
+      "This law should rarely be ignored, but it does sometimes happen that it is better to let your enemies destroy themselves."
+    ]
   },
   {
     "number": "16",
     "title": "Use Absence to Increase Respect and Honor",
     "description": "Too much circulation makes the price go down: The more you are seen and heard from, the more common you appear. If you are already established in a group, temporary withdrawal from it will make you more talked about, even more admired. You must learn when to leave. Create value through scarcity.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "A strong presence will draw power and attention to you. But a point is inevitably reached where too much presence creates the opposite effect: the more you are seen and heard from, the more your value degrades.",
+      "At the right moment, you must learn to withdraw yourself before they unconsciously push you away. It is a game of hide-and-seek.",
+      "The moment you allow yourself to be treated like anyone else, it is too late — you are swallowed and digested. To prevent this, you need to starve the other person of your absence. Force their respect by threatening them with the possibility that they will lose you for good; create a pattern of absence and presence.",
+      "Extend the law of scarcity to your own skills. Make what you are offering the world rare and hard to find, and you instantly increase its value."
+    ],
+    "reversal": [
+      "This law only applies once a certain level of power has been attained.",
+      "Leave too early and you do not increase your respect, you are simply forgotten.",
+      "In the beginning, make yourself omnipresent. Only what is seen, appreciated and loved will be missed in its absence."
+    ]
   },
   {
     "number": "17",
     "title": "Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
     "description": "Humans are creatures of habit with an insatiable need to see familiarity in other people’s actions. Your predictability gives them a sense of control. Turn the tables: Be deliberately unpredictable. Behavior that seems to have no consistency or purpose will keep them off-balance, and they will wear themselves out trying to explain your moves. Taken to an extreme, this strategy can intimidate and terrorize.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Nothing is more terrifying than the sudden and unpredictable, e.g earthquakes and tornadoes.",
+      "Only man has the capacity to consciously alter his behaviour, to improvise and overcome the weight of routine and habit. Yet most men do not recognize this power. They prefer the comforts of routine and habit.",
+      "A person of power instills a kind of fear by deliberately unsettling those around him to keep the initiative on his side.",
+      "Unpredictability is often the tactic of the master, but the underdog can use it too. If you find yourself outnumbered or cornered, throw in a series of unpredictable moves. Your enemies will be confused.",
+      "Scrambling your patterns on a day-to-day basis will cause a stir around you and stimulate interest."
+    ],
+    "reversal": [
+      "Predictability can work in your favour — you can lull people to sleep.",
+      "It can become a form of smoke screen."
+    ]
   },
   {
     "number": "18",
     "title": "Do Not Build Fortresses to Protect Yourself – Isolation is Dangerous",
     "description": "The world is dangerous and enemies are everywhere – everyone has to protect themselves. A fortress seems the safest. But isolation exposes you to more dangers than it protects you from – it cuts you off from valuable information, it makes you conspicuous and an easy target. Better to circulate among people, find allies, mingle. You are shielded from your enemies by the crowd.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Fortresses cut you off from help and cut into your flexibility. Everyone knows where you are.",
+      "Power depends on social interaction and circulation.",
+      "In moments of uncertainty and danger, you need to fight this desire to turn inward. Instead, make yourself more accessible, seek out old allies and make new ones, force yourself into more and more different circles.",
+      "The effects of isolation on the human mind: a loss of proportion, an obsession with detail combined with an inability to see the larger picture, a kind of extravagant ugliness that no longer communicates."
+    ],
+    "reversal": [
+      "The only thing constant human contact cannot facilitate is thought. The weight of society’s pressure to conform, and the lack of distance from people can make it impossible to think clearly about what is going on around you.",
+      "As a temporary recourse, isolation can help you gain perspective."
+    ]
   },
   {
     "number": "19",
     "title": "Know Who You’re Dealing with – Do Not Offend the Wrong Person",
     "description": "There are many different kinds of people in the world, and you can never assume that everyone will react to your strategies in the same way. Deceive or outmaneuver some people and they will spend the rest of their lives seeking revenge. They are wolves in lambs’ clothing. Choose your victims and opponents carefully, then – never offend or deceive the wrong person.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Opponents, Suckers and Victims: Preliminary Typology",
+      "Being able to recognize types of people and acting accordingly is critical.",
+      "1. The Arrogant and Proud Man",
+      "Although he may initially disguise it, this man’s touchy price makes him very dangerous.",
+      "If at any point in your dealings with a person, you sense an oversensitive and overactive pride, flee.",
+      "2. The Hopelessly Insecure Man",
+      "This man is related to the proud and arrogant type, but is less violent and harder to spot.",
+      "His ego is fragile, his sense of self insecure and if he feels himself deceived or attacked, the hurt will simmer.",
+      "He will attack you in bites that will take forever to get big enough for you to notice.",
+      "If you find you have deceived such a person, disappear for a long time.",
+      "3. Mr. Suspicion",
+      "He sees what he wants to see — usually the worst — in other people, and imagines everyone is after him.",
+      "Play on his suspicious nature to get him to turn against other people.",
+      "4. The Serpent With A Long Memory",
+      "If hurt or deceived, this man will show no anger on the surface, he will calculate and wait.",
+      "He is usually cold and unaffectionate.",
+      "Be doubly careful of this snake, and if you have somehow injured him, either crush him completely or get him out of your sight.",
+      "5. The Plain, Unassuming and Often Unintelligent Man",
+      "This man is a lot harder to deceive than you imagine.",
+      "The danger with this man is not that he will harm you or seek revenge, but merely that he will waste your time, energy, resources and even your sanity in trying to deceive him.",
+      "The ability to measure people and to know who you’re dealing with is the most important skill of all in gathering and conserving power.",
+      "Before embarking on any move, take the measure of your mark or potential opponent.",
+      "Study people’s weaknesses, the chinks in their armours, their areas of both pride and insecurity. Know their ins and outs before you even decide whether or not to deal with them.",
+      "In judging your opponent, never rely on your instincts. Nothing can substitute for concrete knowledge. Study and spy on your opponent for however long it takes; this will pay off in the long run.",
+      "Never trust appearances."
+    ],
+    "reversal": [
+      "There is no reversal."
+    ]
   },
   {
     "number": "20",
     "title": "Do Not Commit to Anyone",
     "description": "It is the fool who always rushes to take sides. Do not commit to any side or cause but yourself. By maintaining your independence, you become the master of others – playing people against one another, making them pursue you.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Part 1: Do not commit to anyone, but be courted by all",
+      "If you allow people to feel they possess you to any degree, you lose all power over them. By not committing your affections, they will only try harder to win you over. Stay aloof and you gain the power that comes from their attention and frustrated desire. Play the Virgin Queen: give them hope but never satisfaction.",
+      "When you hold yourself back, you incur not anger but respect. You instantly seem powerful because you make yourself ungraspable, rather than succumbing to the group, or to the relationship as most people do.",
+      "As your reputation for independence grows, more and more people will come to desire you, wanting to be the one who gets you to commit.",
+      "Once you commit, the magic is gone.",
+      "The goal is not to put people off, but stir the pot and excite interest.",
+      "Part 2: Do not commit to anyone — stay above the fray",
+      "Do not let people drag you into their petty fights and squabbles. Seem interested and supportive, but find a way to remain neutral; let others do the fighting while you stand back, watch and wait. When the fighting parties are good and tired they will be ripe for the picking. You can make it a practice, in fact, to stir up quarrels between other people, and then offer to mediate, gaining power as the go-between.",
+      "Most people operate in a whirlpool of emotions, constantly reacting, churning up squabbles and conflicts. You have to master your emotions.",
+      "Make your moves matters of your own choosing, not defensive reactions to the push and pull of others around you.",
+      "Preserving your autonomy gives you options when people come to blows — you can play the mediator, broker peace while securing your own interests.",
+      "You will be tempted to side with the stronger party when conflicts breaks out. But remember: it is often difficult to foresee which side will prevail in the long run.",
+      "Energy wasted on the affairs of others subtracts from your strength."
+    ],
+    "reversal": [
+      "Both parts of the law will turn against you if you take it too far.",
+      "If you keep your growing number of suitors waiting too long, you will inspire not desire, but distrust.",
+      "Eventually you may find it worthwhile to commit to one side — if only for appearance’s sake.",
+      "The key is to maintain inner independence."
+    ]
   },
   {
     "number": "21",
     "title": "Play a Sucker to Catch a Sucker – Seem Dumber than your Mark",
     "description": "No one likes feeling stupider than the next persons. The trick, is to make your victims feel smart – and not just smart, but smarter than you are. Once convinced of this, they will never suspect that you may have ulterior motives.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "Given how important the idea of intelligence is to most people’s vanity, it is critical to never insult or impugn a person’s brain power.",
+      "Subliminally reassure people that they are more intelligent than you are, and you can run rings around them.",
+      "Appearing less intelligent than you are is the perfect disguise."
+    ],
+    "reversal": [
+      "At the start of your climb to the top, you cannot play too stupid. You may want to let your bosses know, in a subtle way, that you are smarter than the competition around you.",
+      "As you climb the ladder, you should to some degree try to dampen your brilliance.",
+      "A show of intelligence can help you get out of a scrape."
+    ]
   },
   {
     "number": "22",
     "title": "Use the Surrender Tactic: Transform Weakness into Power",
     "description": "When you are weaker, never fight for honor’s sake; choose surrender instead. Surrender gives you time to recover, time to torment and irritate your conqueror, time to wait for his power to wane. Do not give him the satisfaction of fighting and defeating you – surrender first. By turning the other check you infuriate and unsettle him. Make surrender a tool of power.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "What gets us into trouble in the realm of power is often our own overreaction to the moves of our enemies and rivals. That overreaction causes problems we would have avoided if we had been more reasonable.",
+      "The next time someone pushes you, try this: do not resist or fight back, but yield. This often neutralizes their behaviour.",
+      "By yielding, you control the situation, because your surrender is part of a larger plan to lull them into believing they have defeated you.",
+      "This allows you time and space to plot the countermoves that will bring them down.",
+      "Surrender also offers a way of mocking your enemies, of turning their power against them."
+    ],
+    "reversal": [
+      "The point of surrendering is to prevent matyrdom.",
+      "While matyrdom can offer power and inspiration, it is often messy and unpredictable. It is still best to avoid it at all costs."
+    ]
   },
   {
     "number": "23",
     "title": "Concentrate Your Forces",
     "description": "Conserve your forces and energies by keeping them concentrated at their strongest point. You gain more by finding a rich mine and mining it deeper, than by flitting from one shallow mine to another – intensity defeats extensity every time. When looking for sources of power to elevate you, find the one key patron, the fat cow who will give you milk for a long time to come.",
-    "keysToPower": [],
-    "reversal": []
+    "keysToPower": [
+      "The world is plagued by greater and greater division. We are all in a state of total distraction and diffusion, hardly able to keep our minds in one direction before we are pulled in a thousand others.",
+      "The solution is a form of retreat inside ourselves, to more concentrated forms of thought and action.",
+      "Schopenhauer, 'Intellect is a magnitude of intensity, not a magnitude of extensity.'",
+      "Casanova attributed his success in life to his ability to concentrate on a single goal and push at it until it yielded. Concentrate on a single goal, a single task, and beat it into submission.",
+      "Power always exists in concentrated forms, for in any organization it is inevitable that a small group hold all the strings. You must find out who controls the operations, who is the real direction behind the scenes."
+    ],
+    "reversal": [
+      "There are moments where dispersion is the proper tactical move. Dispersal is often suited for the weaker side.",
+      "Being too single-minded in purpose can make you an intolerable bore. Diffusion was Leonardo da Vinci’s power, but remember: such genius is rare, and the rest of us are better off erring on the side of intensity."
+    ]
   },
   {
     "number": "24",
     "title": "Play the Perfect Courtier",
     "description": "The perfect courtier thrives in a world where everything revolves around power and political dexterity. He has mastered the art of indirection; he flatters, yields to superiors, and asserts power over others in the mot oblique and graceful manner. Learn and apply the laws of courtiership and there will be no limit to how far you can rise in the court.",
-    "keysToPower": [],
+    "keysToPower": [
+      "Court Society",
+      "The successful courtier walks a tightrope — pleasing but not pleasing too much, obeying but somehow distinguishing himself from the other courtiers, while also never distinguishing himself so far as to make the ruler insecure.",
+      "Great courtiers throughout history have mastered the science of manipulating people. They make the king feel more kingly; they make everyone else fear their power.",
+      "They never say more than necessary, getting the most out of a compliment or hidden insult. They are magnets of pleasure — they know how to please yet they neither fawn nor humiliate themselves.",
+      "Because power exists, courtiers will always exist.",
+      "Laws of Court Politics",
+      "1. Avoid Ostentation",
+      "Never prattle on about yourself or call too much attention to your actions.",
+      "2. Practice Nonchalance",
+      "Never seem to be working too hard. Your talent must appear to flow naturally, with an ease that makes people take you for a genius rather than an workaholic.",
+      "Even if something demands a lot of sweat, make it look effortless.",
+      "3. Be Frugal With Flattery",
+      "Too much of a good thing loses its value.",
+      "4. Arrange To Be Noticed",
+      "Pay attention to your physical appearance, and find a way to create a distinctive — a subtly distinctive style and image",
+      "5. Alter Your Style and Language According To The Person You Are Dealing With",
+      "6. Never Be The Bearer Of Bad News",
+      "The king kills the messenger who brings bad news.",
+      "7. Never Affect Friendliness and Intimacy With Your Master",
+      "He does not want a friend for a subordinate; he wants a subordinate.",
+      "8. Never Criticize Those Above You Directly",
+      "9. Be Frugal In Asking Those Above you For Favours",
+      "10. Never Joke About Appearances Or Taste",
+      "11. Do Not Be The Court Cynic",
+      "Express admiration for the good work of others.",
+      "12. Be Self-Observant",
+      "13. Master Your Emotions",
+      "14. Fit the Spirit Of The Times",
+      "Your way of thinking must keep up with the times.",
+      "15. Be A Source Of Pleasure"
+    ],
     "reversal": []
   },
   {

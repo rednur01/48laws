@@ -6,12 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=0">
     <meta name="theme-color" content="#000000">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <title>React App</title>
+    <title>48 Laws</title>
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyByq_s7pSbEpv-9Z7ahxiJxcCWY28mCg54",
+        authDomain: "laws-306a7.firebaseapp.com",
+        databaseURL: "https://laws-306a7.firebaseio.com",
+        projectId: "laws-306a7",
+        storageBucket: "laws-306a7.appspot.com",
+        messagingSenderId: "307849722954"
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
 </html>

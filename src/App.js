@@ -9,23 +9,11 @@ import FooterBar from './Components/FooterBar'
 import ScrollToTop from './Components/ScrollToTop'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import {
-  faAngleLeft,
-  faAngleRight,
-  faChevronRight,
-  faStar,
-  faCircle,
-  faSearch
-} from '@fortawesome/free-solid-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
-library.add(
-  faAngleLeft,
-  faAngleRight,
-  faChevronRight,
-  faStar,
-  faCircle,
-  faSearch
-)
+import { far } from '@fortawesome/free-regular-svg-icons'
+
+library.add( fas, far )
 
 class App extends Component {
   render() {

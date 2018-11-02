@@ -13,7 +13,6 @@
   /* Gentle colors */
   --unbleached-silk: #f9dec9;
   --medium-taupe: #685044;
-  --apricot: #ffcab1;
   --taupe: #4b3834;
 
   /* Strong & contrasting */
@@ -217,9 +216,9 @@ a {
   border: none;
   outline: none;
   cursor: none;
-  padding-left: calc(var(--large-margin) + var(--medium-margin));
+  padding-left: calc(var(--medium-margin) + 25px );
   color: var(--dark-text);
-  width: calc(100% - var(--large-margin) - var(--medium-margin));
+  width: calc(100% - var(--medium-margin) - 25px );
 }
 
 .SearchBar input:focus {
@@ -230,6 +229,8 @@ a {
   position: absolute;
   left: var(--medium-margin);
   top: calc( var(--single-line-height) / 4);
+  width: 20px;
+
 }
 
 /* .SearchBar button {

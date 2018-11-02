@@ -50,10 +50,7 @@ const HeaderBar = (props) => {
   //Favorite icon states
   // eslint-disable-next-line
   const unFavorited =
-    <span className="fa-layers fa-fw">
-      <FontAwesomeIcon icon="circle" transform="grow-6" color="var(--light-text)"/>
-      <FontAwesomeIcon icon="star" color="var(--dark-text)"/>
-    </span>
+    <FontAwesomeIcon icon={["far", "star"]} />
 
   // eslint-disable-next-line
   const favorited =

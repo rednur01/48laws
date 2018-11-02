@@ -1,20 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const FooterBar = (props) => {
     return (
       <div className="FooterBar">
 
         <div className="Left">
-          <Link to="/">Laws</Link>
+          <Link to="/">
+            <FontAwesomeIcon icon="gavel" size="lg" />
+          </Link>
         </div>
 
         <div className="Center">
-          <Link to="/Categories">Categories</Link>
+          <Link to="/Categories">
+            <FontAwesomeIcon icon="th-large" size="lg" />
+          </Link>
         </div>
 
         <div className="Right">
-          <Link to="/Profile">Profile</Link>
+          <Link to="/Profile">
+            <FontAwesomeIcon icon="user" size="lg" />
+          </Link>
         </div>
 
       </div>

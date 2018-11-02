@@ -14,7 +14,7 @@ const FooterBar = (props) => {
 
         <div className="Center">
           <Link to="/Categories">
-            <FontAwesomeIcon icon="th-large" size="lg" />
+            <FontAwesomeIcon icon="th-list" size="lg" />
           </Link>
         </div>
 

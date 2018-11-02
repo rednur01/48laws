@@ -69,7 +69,7 @@ const HeaderBar = (props) => {
       </div>
 
       <div className="Action">
-        {header==="Law Details" && unFavorited}
+        
       </div>
 
     </div>

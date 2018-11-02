@@ -13,11 +13,22 @@
   /* Gentle colors */
   --unbleached-silk: #f9dec9;
   --medium-taupe: #685044;
+  --apricot: #ffcab1;
+  --taupe: #4b3834;
+
+  /* Strong & contrasting */
+  --river-bed: #4c5c68;
+  --red-damask: #db694a;
+  --blue-bell: #998fc7;
+
+ /*Baby Shark Blue*/
+ --charcoal: #373f51;
+ --rich-electric-blue: #008dd5;
 
   /* Apply colors */
-  --dark-area: var(--medium-taupe);
+  --dark-area: var(--taupe);
   --light-area: var(--unbleached-silk);
-  --dark-text: var(--medium-taupe);
+  --dark-text: var(--taupe);
   --light-text: var(--unbleached-silk);
   --white-area: white;
 
@@ -71,6 +82,16 @@ a {
   grid-template-columns: 2fr 6fr 2fr;
   align-items: center;
   text-align: center;
+}
+
+.HeaderBar > .Nav {
+  text-align: left;
+  padding-left: var(--small-margin);
+}
+
+.HeaderBar > .Action {
+  text-align: right;
+  padding-right: var(--small-margin);
 }
 
 .PageShell {
@@ -192,21 +213,26 @@ a {
 .SearchBar input {
   height: 100%;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: var(--small-radius);
+  border-radius: var(--large-radius);
   border: none;
   outline: none;
   cursor: none;
-  padding-left: var(--medium-margin);
-  padding-right: 25%;
+  padding-left: calc(var(--large-margin) + var(--medium-margin));
   color: var(--dark-text);
-  width: calc(100% - var(--medium-margin) - 25%);
+  width: calc(100% - var(--large-margin) - var(--medium-margin));
 }
 
 .SearchBar input:focus {
   outline: none;
 }
 
-.SearchBar button {
+.SearchBar .search {
+  position: absolute;
+  left: var(--medium-margin);
+  top: calc( var(--single-line-height) / 4);
+}
+
+/* .SearchBar button {
   position: absolute;
   right: 0;
   height: calc(100% + 2px);
@@ -216,7 +242,7 @@ a {
   outline: none;
   color: gray;
   background-color: var(--white-area);
-}
+} */
 
 /* Tile Variation */
 /* .NotFound404 {

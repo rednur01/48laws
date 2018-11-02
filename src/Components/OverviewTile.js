@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const OverviewTile = (props) => {
     return (
@@ -15,9 +16,9 @@ const OverviewTile = (props) => {
           </div>
 
           <div className="Nav">
-            &gt;
+            <FontAwesomeIcon icon="angle-right" />
           </div>
-          
+
         </div>
       </Link>
     )

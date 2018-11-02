@@ -53,7 +53,7 @@ class LawOverview extends Component {
     }
     return (
       <div className="LawOverview">
-        <SearchBar placeholder="" onSearch={this.onSearch} value={this.state.search}/>
+        <SearchBar placeholder="Search" onSearch={this.onSearch} value={this.state.search}/>
         { lawList }
       </div>
     )

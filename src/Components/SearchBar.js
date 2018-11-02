@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SearchBar = (props) => {
     return (
@@ -8,9 +9,7 @@ const SearchBar = (props) => {
             placeholder={props.placeholder}
             value={props.value}
             onChange={props.onSearch} />
-          <button >
-            Search
-          </button>
+          <FontAwesomeIcon icon="search" color="gray" className="search" />
         </div>
     )
 }

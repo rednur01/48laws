@@ -78,7 +78,7 @@ a {
   background-color: var(--dark-area);
   color: var(--light-text);
   display: grid;
-  grid-template-columns: 2fr 6fr 2fr;
+  grid-template-columns: 4fr 6fr 4fr;
   align-items: center;
 }
 
@@ -99,7 +99,7 @@ a {
 .PageShell {
   position: fixed;
   top: var(--header-height);
-  height: calc( 100vh - var(--header-height) - var(--footer-height) );
+  height: calc( 100% - var(--header-height) - var(--footer-height) );
   width: 100%;
   overflow-y: scroll;
   background-color: var(--light-area);
@@ -197,9 +197,8 @@ a {
   background-color: var(--dark-text);
 }
 
-.CatOverview, .Profile {
-  background-color: white;
-  padding: var(--large-margin);
+.CatOverview > .PageShell, .Profile > .PageShell {
+  padding-top: var(--small-margin);
   text-align: center;
 }
 
@@ -271,7 +270,7 @@ a {
   width: 65vw;
   margin-left: 15vw;
   margin-right: 15vw;
-  border-radius: var(--small-radius);
+  border-radius: var(--medium-radius);
   text-align: center;
   padding: var(--small-margin);
 }

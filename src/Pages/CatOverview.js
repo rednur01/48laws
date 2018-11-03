@@ -1,11 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
+
+import HeaderBar from '../Components/HeaderBar'
+import PageShell from '../Components/PageShell'
+import FooterBar from '../Components/FooterBar'
 
 const CatOverview = () => {
-  // eslint-disable-next-line
-  const [ placeholder, setPlaceholder ] = useState("Categories Coming soon")
   return (
     <div className="CatOverview">
-      {placeholder}
+      <HeaderBar
+        title="Categories" />
+
+      <PageShell>
+        Coming Soon
+      </PageShell>
+
+      <FooterBar />
     </div>
   )
 }

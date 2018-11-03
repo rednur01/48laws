@@ -14,10 +14,17 @@ const LawDetails = (props) => {
   const law = laws[index]
 
   const navBack =
-    <FontAwesomeIcon icon="angle-left" />
+    <div onClick={ () => {
+        props.history.goBack()
+        window.getSelection().removeAllRanges()
+      } }>
+      <FontAwesomeIcon icon="angle-left" /> Laws
+    </div>
 
   const favorite =
-    <FontAwesomeIcon icon={["far", "star"]} />
+    <div onClick={ () => props.showToast("Favorites coming soon") }>
+      <FontAwesomeIcon icon={["far", "star"]} />
+    </div>
 
   return (
     <div className="LawDetails">

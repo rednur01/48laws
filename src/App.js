@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import ScrollToTop from './Components/ScrollToTop'
+import Toast from './Components/Toast'
 import './App.css'
 
 import LawOverview from './Pages/LawOverview'
@@ -33,11 +34,31 @@ class App extends Component {
       <Router>
       <ScrollToTop>
         <div className="App">
-          <Route path="/" exact         component={LawOverview} />
-          <Route path="/Law/:number"    component={LawDetails} />
-          <Route path="/Categories"     component={CatOverview} />
-          <Route path="/Category/:name" component={CatDetails} />
-          <Route path="/Profile"        component={Profile} />
+          <Route
+            path="/" exact
+            component={LawOverview} />
+
+          <Route
+            path="/Law/:number"
+            render={ props => <LawDetails {...props} showToast={this.showToast} /> } />
+
+          <Route
+            path="/Categories"
+            component={CatOverview} />
+
+          <Route
+            path="/Category/:name"
+            component={CatDetails} />
+
+          <Route
+            path="/Profile"
+            component={Profile} />
+
+          {
+            Boolean(this.state.toastText) &&
+            <Toast text={this.state.toastText} />
+          }
+
         </div>
       </ScrollToTop>
       </Router>

@@ -215,7 +215,6 @@ a {
   border-radius: var(--large-radius);
   border: none;
   outline: none;
-  cursor: none;
   padding-left: calc(var(--medium-margin) + 25px );
   color: var(--dark-text);
   width: calc(100% - var(--medium-margin) - 25px );
@@ -270,4 +269,18 @@ a {
     display: grid;
     align-items: center;
     text-align: center;
+}
+
+.Toast {
+  position: fixed;
+  z-index: var(--z-index-2);
+  bottom: 10vh;
+  background-color: var(--dark-area);
+  color: var(--light-text);
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  border-radius: var(--small-radius);
+  text-align: center;
+  padding: var(--small-margin);
 }

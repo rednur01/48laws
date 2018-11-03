@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 
-class CatOverview extends Component {
-  render() {
-    return (
-      <div className="CatOverview">
-        Categories coming soon
-      </div>
-    )
-  }
+const CatOverview = () => {
+  // eslint-disable-next-line
+  const [ placeholder, setPlaceholder ] = useState("Categories Coming soon")
+  return (
+    <div className="CatOverview">
+      {placeholder}
+    </div>
+  )
 }
 
 export default CatOverview

@@ -2,43 +2,18 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import paths from '../Data/paths.json'
+
 const HeaderBar = (props) => {
-  const headers = [
-    {
-      path: "/",
-      header: "The 48 Laws of Power",
-      depth: 1
-    },
-    {
-      path: "/Categories",
-      header: "Categories",
-      depth: 1
-    },
-    {
-      path: "/Profile",
-      header: "Profile",
-      depth: 1
-    },
-    {
-      path: "/Law",
-      header: "Law Details",
-      depth: 2,
-      parent: "Laws",
-      parentPath: "/"
-    },
-    {
-      path: "/Category",
-      header: "Category Details",
-      depth: 2,
-      parent: "Category",
-      parentPath: "/Categories"
-    }
-  ]
-  const path = props.location.pathname
-  const matches = headers.filter( header => {
-    return path.startsWith(header.path)
+  const currentPath = props.location.pathname
+
+  //"/" always matches
+  //Check for a second match first, otherwise default to "/"
+  const matches = paths.filter( path => {
+    return currentPath.startsWith(path.path)
   })
   const match = matches[1] || matches[0]
+  
   const header = match.header
   const depth = match.depth
 
@@ -69,7 +44,7 @@ const HeaderBar = (props) => {
       </div>
 
       <div className="Action">
-        
+
       </div>
 
     </div>

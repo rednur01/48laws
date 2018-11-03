@@ -1,0 +1,31 @@
+[
+  {
+    "path": "/",
+    "header": "The 48 Laws of Power",
+    "depth": 1
+  },
+  {
+    "path": "/Categories",
+    "header": "Categories",
+    "depth": 1
+  },
+  {
+    "path": "/Profile",
+    "header": "Profile",
+    "depth": 1
+  },
+  {
+    "path": "/Law",
+    "header": "Law Details",
+    "depth": 2,
+    "parent": "Laws",
+    "parentPath": "/"
+  },
+  {
+    "path": "/Category",
+    "header": "Category Details",
+    "depth": 2,
+    "parent": "Category",
+    "parentPath": "/Categories"
+  }
+]

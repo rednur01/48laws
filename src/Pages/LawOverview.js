@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import SearchBar from '../Components/SearchBar'
 import OverviewTile from '../Components/OverviewTile'
 import NotFound404 from '../Components/NotFound404'
+
+import HeaderBar from '../Components/HeaderBar'
+import PageShell from '../Components/PageShell'
+import FooterBar from '../Components/FooterBar'
+
 import laws from '../Data/laws.json'
 
 class LawOverview extends Component {
@@ -43,7 +48,7 @@ class LawOverview extends Component {
               <OverviewTile
                 index={law.number}
                 text={law.title}
-                nav={"/Law/" + law.number} />
+                navLink={"/Law/" + law.number} />
             </li>
           )
         }
@@ -53,8 +58,12 @@ class LawOverview extends Component {
     }
     return (
       <div className="LawOverview">
-        <SearchBar placeholder="Search" onSearch={this.onSearch} value={this.state.search}/>
-        { lawList }
+        <HeaderBar title="The 48 Laws of Power"/>
+        <PageShell>
+          <SearchBar placeholder="Search" onSearch={this.onSearch} value={this.state.search}/>
+          { lawList }
+        </PageShell>
+        <FooterBar />
       </div>
     )
   }

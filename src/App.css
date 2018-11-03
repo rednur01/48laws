@@ -20,9 +20,9 @@
   --red-damask: #db694a;
   --blue-bell: #998fc7;
 
- /*Baby Shark Blue*/
- --charcoal: #373f51;
- --rich-electric-blue: #008dd5;
+  /*Baby Shark Blue*/
+  --charcoal: #373f51;
+  --rich-electric-blue: #008dd5;
 
   /* Apply colors */
   --dark-area: var(--taupe);
@@ -31,19 +31,24 @@
   --light-text: var(--unbleached-silk);
   --white-area: white;
 
+  /* Heights and margins */
   --bar-height: 45px;
-  --header-height: var(--bar-height);
-  --footer-height: var(--bar-height);
+  --single-line-height: 2rem;
 
   --small-margin: 2.5vw;
   --medium-margin: calc(2 * var(--small-margin));
   --large-margin: calc(3 * var(--small-margin));
-  --tiny-margin: calc(0.5 * var(--small-margin));
-  --single-line-height: 2rem;
+
+  --tiny-margin: calc(var(--small-margin) / 2);
+  --micro-margin: calc(var(--small-margin) / 3);
+
   --tile-height: 5rem;
   --small-radius: 4px;
   --medium-radius: calc(2 * var(--small-radius));
   --large-radius: calc(2 * var(--medium-radius));
+
+  --header-height: var(--bar-height);
+  --footer-height: var(--bar-height);
 
   --z-index-1: 10;
   --z-index-2: 20;
@@ -58,11 +63,6 @@ body {
   font-family: 'Barlow';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 a {
@@ -80,12 +80,15 @@ a {
   display: grid;
   grid-template-columns: 2fr 6fr 2fr;
   align-items: center;
-  text-align: center;
 }
 
 .HeaderBar > .Nav {
   text-align: left;
   padding-left: var(--small-margin);
+}
+
+.HeaderBar > .Title {
+  text-align: center;
 }
 
 .HeaderBar > .Action {
@@ -96,7 +99,7 @@ a {
 .PageShell {
   position: fixed;
   top: var(--header-height);
-  height: calc( 100% - var(--header-height) - var(--footer-height) );
+  height: calc( 100vh - var(--header-height) - var(--footer-height) );
   width: 100%;
   overflow-y: scroll;
   background-color: var(--light-area);
@@ -143,7 +146,7 @@ a {
   text-align: center;
 }
 
-.LawOverview > ul {
+.LawOverview ul {
   list-style-type: none;
   padding-left: 0;
 }

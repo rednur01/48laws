@@ -4,9 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const OverviewTile = (props) => {
   return (
-    <Link to={props.nav}>
+    <Link to={props.navLink}>
       <div className="OverviewTile">
-
         <div className="Index">
           {props.index}
         </div>
@@ -18,7 +17,6 @@ const OverviewTile = (props) => {
         <div className="Nav">
           <FontAwesomeIcon icon="angle-right" />
         </div>
-
       </div>
     </Link>
   )

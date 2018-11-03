@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const FooterBar = (props) => {
   return (
     <div className="FooterBar">
-
       <div className="Left">
         <Link to="/">
           <FontAwesomeIcon icon="gavel" size="lg" />
@@ -23,7 +22,6 @@ const FooterBar = (props) => {
           <FontAwesomeIcon icon="user" size="lg" />
         </Link>
       </div>
-
     </div>
   )
 }

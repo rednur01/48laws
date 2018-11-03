@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import ScrollToTop from './Components/ScrollToTop'
 import './App.css'
 
-import HeaderBar from './Components/HeaderBar'
-import PageShell from './Components/PageShell'
-import FooterBar from './Components/FooterBar'
-import ScrollToTop from './Components/ScrollToTop'
-import Toast from './Components/Toast'
+import LawOverview from './Pages/LawOverview'
+import LawDetails from './Pages/LawDetails'
+import CatOverview from './Pages/CatOverview'
+import CatDetails from './Pages/CatDetails'
+import Profile from './Pages/Profile'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -30,19 +31,15 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <ScrollToTop>
-          <div className="App">
-            <Route 
-              render={ props => <HeaderBar {...props} showToast={this.showToast} /> } />
-
-            <Route
-              render={ props => <PageShell {...props} showToast={this.showToast} /> } />
-
-            { Boolean(this.state.toastText) && < Toast text={this.state.toastText} /> }
-
-            <Route component={FooterBar} />
-          </div>
-        </ScrollToTop>
+      <ScrollToTop>
+        <div className="App">
+          <Route path="/" exact         component={LawOverview} />
+          <Route path="/Law/:number"    component={LawDetails} />
+          <Route path="/Categories"     component={CatOverview} />
+          <Route path="/Category/:name" component={CatDetails} />
+          <Route path="/Profile"        component={Profile} />
+        </div>
+      </ScrollToTop>
       </Router>
     )
   }

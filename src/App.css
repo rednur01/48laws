@@ -232,18 +232,6 @@ a {
 
 }
 
-/* .SearchBar button {
-  position: absolute;
-  right: 0;
-  height: calc(100% + 2px);
-  width: 22%;
-  border-radius: 0 var(--small-radius) var(--small-radius) 0;
-  border: none;
-  outline: none;
-  color: gray;
-  background-color: var(--white-area);
-} */
-
 /* Tile Variation */
 /* .NotFound404 {
     height: var(--tile-height);
@@ -277,7 +265,7 @@ a {
   bottom: 10vh;
   background-color: var(--dark-area);
   color: var(--light-text);
-  width: 70vw;
+  width: 65vw;
   margin-left: 15vw;
   margin-right: 15vw;
   border-radius: var(--small-radius);

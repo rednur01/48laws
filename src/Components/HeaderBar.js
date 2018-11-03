@@ -13,12 +13,12 @@ const HeaderBar = (props) => {
     return currentPath.startsWith(path.path)
   })
   const match = matches[1] || matches[0]
-  
+
   const header = match.header
   const depth = match.depth
 
   const backNav =
-    <Link to={match.parentPath}>
+    <Link to={match.parentPath || ""}>
       <FontAwesomeIcon icon="angle-left" /> {match.parent}
     </Link>
 
@@ -31,6 +31,9 @@ const HeaderBar = (props) => {
   const favorited =
     <FontAwesomeIcon icon="star" />
 
+  const onFavorite = () => {
+    props.showToast( " " )
+  }
 
   return (
     <div className="HeaderBar">
@@ -43,8 +46,8 @@ const HeaderBar = (props) => {
         {header}
       </div>
 
-      <div className="Action">
-
+      <div className="Action" onClick={ onFavorite }>
+        { header === "Law Details" && unFavorited }
       </div>
 
     </div>

@@ -3,8 +3,6 @@ import { withRouter } from 'react-router-dom'
 
 class ScrollToTop extends Component {
   componentDidUpdate(prevProps) {
-    console.log(window.history)
-    console.log(this.props.history)
     if (this.props.location !== prevProps.location) {
       document.getElementsByClassName("PageShell")[0].scrollTo({
         top: 0,

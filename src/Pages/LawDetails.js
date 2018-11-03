@@ -17,9 +17,9 @@ const LawDetails = (props) => {
       <DetailSection
         title="Keys To Power"
         description={law.keysToPower} />
-        <DetailSection
-          title="Reversal"
-          description={law.reversal} />
+      <DetailSection
+        title="Reversal"
+        description={law.reversal} />
     </div>
   )
 }

@@ -8,10 +8,15 @@ import CatDetails from '../Pages/CatDetails'
 import Profile from '../Pages/Profile'
 
 const PageShell = (props) => {
+  const showToast = props.showToast
   return (
     <div className="PageShell">
-      <Route path="/" exact       component={LawOverview} />
-      <Route path="/Law/:number"   component={LawDetails} />
+      <Route path="/" exact component={LawOverview} />
+
+      <Route
+        path="/Law/:number"
+        render={ props => <LawDetails {...props} showToast={showToast} /> } />
+
       <Route path="/Categories"  component={CatOverview} />
       <Route path="/Category/:name"   component={CatDetails} />
       <Route path="/Profile"      component={Profile} />

@@ -1,7 +1,6 @@
 import React from 'react'
 
-const HeaderBar = (props) => {
-
+export default (props) => {
   return (
     <div className="HeaderBar">
       <div className="Nav" onClick={ props.onNav } >
@@ -18,5 +17,3 @@ const HeaderBar = (props) => {
     </div>
   )
 }
-
-export default HeaderBar

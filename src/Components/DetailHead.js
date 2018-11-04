@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DetailHead = (props) => {
+export default (props) => {
   return (
     <div className="DetailHead">
       <div className="Tile">
@@ -15,5 +15,3 @@ const DetailHead = (props) => {
     </div>
   )
 }
-
-export default DetailHead

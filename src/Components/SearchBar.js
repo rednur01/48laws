@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const SearchBar = (props) => {
+export default (props) => {
   const onEvent = ( event ) => {
     if( event.key === "Enter" ) {
       event.target.blur()
@@ -19,5 +19,3 @@ const SearchBar = (props) => {
       </div>
   )
 }
-
-export default SearchBar

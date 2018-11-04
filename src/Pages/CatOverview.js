@@ -4,7 +4,7 @@ import HeaderBar from '../Components/HeaderBar'
 import PageShell from '../Components/PageShell'
 import FooterBar from '../Components/FooterBar'
 
-const CatOverview = () => {
+export default () => {
   return (
     <div className="CatOverview">
       <HeaderBar
@@ -18,5 +18,3 @@ const CatOverview = () => {
     </div>
   )
 }
-
-export default CatOverview

@@ -4,7 +4,7 @@ import HeaderBar from '../Components/HeaderBar'
 import PageShell from '../Components/PageShell'
 import FooterBar from '../Components/FooterBar'
 
-const Profile = () => {
+export default () => {
   return (
     <div className="Profile">
       <HeaderBar
@@ -18,5 +18,3 @@ const Profile = () => {
     </div>
   )
 }
-
-export default Profile

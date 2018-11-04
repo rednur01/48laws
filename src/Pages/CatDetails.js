@@ -6,7 +6,7 @@ import FooterBar from '../Components/FooterBar'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const CatDetails = (props) => {
+export default (props) => {
   const navBack =
     <div onClick={ () => {
         props.history.goBack()
@@ -29,5 +29,3 @@ const CatDetails = (props) => {
     </div>
   )
 }
-
-export default CatDetails

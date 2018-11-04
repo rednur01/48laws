@@ -8,7 +8,7 @@ import HeaderBar from '../Components/HeaderBar'
 import PageShell from '../Components/PageShell'
 import FooterBar from '../Components/FooterBar'
 
-const LawDetails = (props) => {
+export default (props) => {
   const number = props.match.params.number
   const index = number - 1
   const law = laws[index]
@@ -50,5 +50,3 @@ const LawDetails = (props) => {
     </div>
   )
 }
-
-export default LawDetails

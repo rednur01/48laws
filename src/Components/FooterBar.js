@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const FooterBar = (props) => {
+export default (props) => {
   return (
     <div className="FooterBar">
       <div className="Left">
@@ -25,5 +25,3 @@ const FooterBar = (props) => {
     </div>
   )
 }
-
-export default FooterBar

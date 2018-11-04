@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const OverviewTile = (props) => {
+export default (props) => {
   return (
     <Link to={props.navLink}>
       <div className="OverviewTile">
@@ -21,5 +21,3 @@ const OverviewTile = (props) => {
     </Link>
   )
 }
-
-export default OverviewTile

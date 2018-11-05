@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+import CatOverviewTile from '../Components/CatOverviewTile'
 import NotFound404 from '../Components/NotFound404'
+import AddCatDialog from '../Components/AddCatDialog'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import HeaderBar from '../Components/HeaderBar'
@@ -11,8 +13,27 @@ export default (props) => {
   const storageCategories = JSON.parse(localStorage.getItem("categories"))
   const [ categories, setCategories ] = useState(storageCategories)
 
+  const addNewCategory = (title, description) => {
+    const newCategory = {
+      title: title,
+      description: description,
+      laws: 0
+    }
+
+    let updatedCategories = storageCategories
+    updatedCategories.push(newCategory)
+    localStorage.setItem("categories", JSON.stringify(updatedCategories))
+
+    props.closeModal()
+  }
+
+  const addModal =
+    <AddCatDialog
+      onAccept={ addNewCategory }
+      onCancel={ props.closeModal } />
+
   const onAddCategory = () => {
-    props.showToast("Categories Coming soon")
+    props.openModal( addModal )
   }
 
   const addButton =
@@ -23,11 +44,27 @@ export default (props) => {
     </div>
 
   let catList
-  catList =
-  <NotFound404>
-    <p>No categories found</p>
-    <p>Use the <FontAwesomeIcon icon="plus" /> icon above to add one</p>
-  </NotFound404>
+  if(categories.length) {
+    catList =
+    <ul>
+      {
+        categories.map( (category) =>
+          <li>
+            <CatOverviewTile
+              title={category.title}
+              laws={category.laws}
+              navLink={"/Category/" + category.title} />
+          </li>
+        )
+      }
+    </ul>
+  } else {
+    catList =
+    <NotFound404>
+      <p>No categories found</p>
+      <p>Press the <FontAwesomeIcon icon="plus" style={{padding:"0 2px"}}/> above to add one</p>
+    </NotFound404>
+  }
 
   return (
     <div className="CatOverview">

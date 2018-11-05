@@ -19,7 +19,12 @@ class App extends Component {
   constructor() {
     super()
     this.showToast = this.showToast.bind(this)
-    this.state = { toastText: ""}
+    this.openModal = this.openModal.bind(this)
+    this.closeModal = this.closeModal.bind(this)
+    this.state = {
+      toastText: "",
+      modal: null
+    }
   }
 
   componentDidMount() {
@@ -45,6 +50,14 @@ class App extends Component {
     }, destroyTime )
   }
 
+  openModal( modal ) {
+    this.setState({ modal: modal })
+  }
+
+  closeModal() {
+    this.setState({ modal: null })
+  }
+
   render() {
     return (
       <Router>
@@ -60,7 +73,11 @@ class App extends Component {
 
           <Route
             path="/Categories"
-            render={ props => <CatOverview {...props} showToast={this.showToast} /> } />
+            render={ props =>
+              <CatOverview {...props}
+                showToast={this.showToast}
+                openModal={this.openModal}
+                closeModal={this.closeModal} /> } />
 
           <Route
             path="/Category/:name"
@@ -74,6 +91,8 @@ class App extends Component {
             Boolean(this.state.toastText) &&
             <Toast text={this.state.toastText} />
           }
+
+          {this.state.modal}
 
         </div>
       </ScrollToTop>

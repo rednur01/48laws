@@ -22,6 +22,14 @@ class App extends Component {
     this.state = { toastText: ""}
   }
 
+  componentDidMount() {
+    !localStorage.getItem("categories") &&
+      localStorage.setItem("categories", "[]")
+
+    !localStorage.getItem("favoriteLaws") &&
+      localStorage.setItem("favoriteLaws","[]")
+  }
+
   showToast( text ) {
     const fadeTime = 1700;
     const destroyTime = fadeTime + 1000;
@@ -52,7 +60,7 @@ class App extends Component {
 
           <Route
             path="/Categories"
-            component={CatOverview} />
+            render={ props => <CatOverview {...props} showToast={this.showToast} /> } />
 
           <Route
             path="/Category/:name"

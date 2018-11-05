@@ -85,7 +85,6 @@ a {
 .HeaderBar > .Nav {
   text-align: left;
   padding-left: var(--small-margin);
-  cursor: pointer;
 }
 
 .HeaderBar > .Title {
@@ -95,7 +94,6 @@ a {
 .HeaderBar > .Action {
   text-align: right;
   padding-right: var(--small-margin);
-  cursor: pointer;
 }
 
 .PageShell {
@@ -121,7 +119,7 @@ a {
   text-align: center;
 }
 
-.OverviewTile {
+.LawOverviewTile {
     height: var(--tile-height);
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
@@ -136,15 +134,15 @@ a {
     border-radius: var(--small-radius);
 }
 
-.OverviewTile > .Index {
+.LawOverviewTile > .Index {
   text-align: center;
 }
 
-.OverviewTile > .Text {
+.LawOverviewTile > .Text {
   text-align: left;
 }
 
-.OverviewTile > .Nav {
+.LawOverviewTile > .Nav {
   text-align: center;
 }
 
@@ -258,8 +256,6 @@ a {
     margin-bottom: 0.75rem;
     margin-left: var(--small-margin);
     margin-right: var(--small-margin);
-    display: grid;
-    align-items: center;
     text-align: center;
 }
 

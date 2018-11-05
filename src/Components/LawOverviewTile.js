@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default (props) => {
   return (
     <Link to={props.navLink}>
-      <div className="OverviewTile">
+      <div className="LawOverviewTile">
         <div className="Index">
           {props.index}
         </div>

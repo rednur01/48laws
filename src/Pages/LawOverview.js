@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import SearchBar from '../Components/SearchBar'
-import OverviewTile from '../Components/OverviewTile'
+import LawOverviewTile from '../Components/LawOverviewTile'
 import NotFound404 from '../Components/NotFound404'
 
 import HeaderBar from '../Components/HeaderBar'
@@ -45,7 +45,7 @@ class LawOverview extends Component {
         {
           this.state.laws.map( (law) =>
             <li key={law.number}>
-              <OverviewTile
+              <LawOverviewTile
                 index={law.number}
                 text={law.title}
                 navLink={"/Law/" + law.number} />
@@ -54,7 +54,10 @@ class LawOverview extends Component {
         }
       </ul>
     } else {
-      lawList = <NotFound404 text="No Laws Found" />
+      lawList =
+      <NotFound404>
+        No Laws Found
+      </NotFound404>
     }
     return (
       <div className="LawOverview">

@@ -12,8 +12,8 @@
 
   /* Gentle colors */
   --unbleached-silk: #f9dec9;
-  --medium-taupe: #685044;
   --taupe: #4b3834;
+  --lust: #e62020;
 
   /* Strong & contrasting */
   --river-bed: #4c5c68;
@@ -248,12 +248,12 @@ a {
 }
 
 .SearchBar {
-    position: relative;
-    height: var(--single-line-height);
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-    margin-left: var(--small-margin);
-    margin-right: var(--small-margin);
+  position: relative;
+  height: var(--single-line-height);
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: var(--small-margin);
+  margin-right: var(--small-margin);
 }
 
 .SearchBar input {
@@ -296,12 +296,12 @@ a {
 
 /* Text Variation */
 .NotFound404 {
-    height: var(--single-line-height);
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-    margin-left: var(--small-margin);
-    margin-right: var(--small-margin);
-    text-align: center;
+  height: var(--single-line-height);
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: var(--small-margin);
+  margin-right: var(--small-margin);
+  text-align: center;
 }
 
 .Toast {
@@ -338,11 +338,11 @@ a {
 
 .Modal > .ModalBody {
   position: relative;
-  width: 80vw;
+  width: 70vw;
   max-height: 80vh;
   border-radius: var(--medium-radius);
   background-color: white;
-  padding: 0 10px;
+  padding: 0 15px;
   overflow-y: scroll;
 }
 
@@ -350,8 +350,8 @@ a {
   text-align: center;
   font-weight: bold;
   color: var(--dark-text);
-  padding: 5px 0;
-  border-bottom: 2px solid var(--dark-area);
+  padding: 10px 0;
+  border-bottom: 1px solid var(--dark-area);
 }
 
 .ModalBody > .Text {
@@ -367,9 +367,11 @@ a {
 
 .ModalBody > .Footer > button {
   border: 1px solid var(--dark-area);
-  border-radius: var(--small-radius);
-  margin-left: 10px;
-  padding: 10px;
+  border-radius: var(--medium-radius);
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 8px 10px;
+  min-width: 60px;
   background-color: var(--dark-area);
   color: white;
   outline: none;
@@ -377,7 +379,7 @@ a {
 
 .AddCatDialog {
   --side-padding: 5px;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .AddCatDialog input {
@@ -388,14 +390,32 @@ a {
   border-radius: var(--small-radius);
   outline-color: var(--light-area);
   color: var(--dark-text);
+  margin-top: 5px;
+}
+
+.AddCatDialog input:focus {
+  background-color: var(--light-area);
+  border: 1px solid var(--dark-area);
+  outline: none;
+}
+
+.AddCatDialog input:invalid {
+  border: 1px solid var(--lust);
 }
 
 .AddCatDialog textarea {
   padding: var(--side-padding);
   width: calc( 100% - 2 * var(--side-padding));
   border: 1px solid var(--dark-area);
+  margin-top: 5px;
   border-radius: var(--small-radius);
   outline-color: var(--light-area);
   color: var(--dark-text);
   font-family: inherit;
+}
+
+.AddCatDialog textarea:focus {
+  background-color: var(--light-area);
+  border: 1px solid var(--dark-area);
+  outline: none;
 }

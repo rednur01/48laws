@@ -15,7 +15,7 @@ export default class Modal extends Component {
         </div>
         <div className="Footer">
           <button onClick={this.props.onAccept}>
-            Accept
+            Add
           </button>
           <button onClick={this.props.onCancel}>
             Cancel

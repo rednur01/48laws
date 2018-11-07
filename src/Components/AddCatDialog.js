@@ -1,36 +1,27 @@
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 import Modal from './Modal'
 
 export default (props) => {
-  //try to make it work with state
-  //buggy, couldn't set values. 11/5/18
-
-  useEffect( () => {
-    document.querySelector(".AddCatDialog > input").focus()
-  } )
-
-  const getTitle = () => {
-    return document.querySelector(".AddCatDialog > input").value
-  }
-
-  const getDescription = () => {
-    return document.querySelector(".AddCatDialog > textarea").value
-  }
+  const [ title, setTitle ] = useState("")
+  const [ description, setDescription ] = useState("")
 
   return (
     <Modal
       header="Add Category"
-      onAccept={ () => props.onAccept( getTitle(), getDescription() ) }
+      accept="Add"
+      onAccept={ () => props.onAccept(title, description) }
       onCancel={props.onCancel} >
       <div className="AddCatDialog">
 
         Name: <br/>
-        <input type="text" maxLength="40" />
+        <input type="text" maxLength="40"
+          value={ title } onChange={ e => setTitle(e.target.value) } />
 
         <br/><br/>
 
         Description: <br/>
-        <textarea rows="5"/>
+        <textarea rows="5"
+          value={ description } onChange={ e => setDescription(e.target.value) } />
 
       </div>
     </Modal>

@@ -1,33 +1,30 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
 
-const page = document.getElementById('root')
-
-export default class Modal extends Component {
-  modal =
-    <div className="Modal">
-      <div className="ModalBody">
-        <div className="Header">
-          {this.props.header}
-        </div>
-        <div className="Text">
-          {this.props.children}
-        </div>
-        <div className="Footer">
-          <button onClick={this.props.onAccept}>
-            Add
-          </button>
-          <button onClick={this.props.onCancel}>
-            Cancel
-          </button>
-        </div>
+export default (props) => {
+  const page = document.getElementById('root')
+  const modal =
+  <div className="Modal">
+    <div className="ModalBody">
+      <div className="Header">
+        {props.header}
+      </div>
+      <div className="Text">
+        {props.children}
+      </div>
+      <div className="Footer">
+        <button onClick={ props.onAccept }>
+          { props.accept || "Accept" }
+        </button>
+        <button onClick={ props.onCancel }>
+          { props.cancel || "Cancel" }
+        </button>
       </div>
     </div>
+  </div>
 
-  render() {
-    return ReactDOM.createPortal(
-      this.modal,
-      page
-    )
-  }
+  return ReactDOM.createPortal(
+    modal,
+    page
+  )
 }

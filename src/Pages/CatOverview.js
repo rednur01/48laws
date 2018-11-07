@@ -12,6 +12,7 @@ export default (props) => {
 
   const storageCategories = JSON.parse(localStorage.getItem("categories"))
   const [ categories, setCategories ] = useState(storageCategories)
+  const categoryNames = storageCategories.map( item => item.title )
 
   const addNewCategory = (title, description) => {
     const newCategory = {
@@ -23,12 +24,14 @@ export default (props) => {
     let updatedCategories = storageCategories
     updatedCategories.push(newCategory)
     localStorage.setItem("categories", JSON.stringify(updatedCategories))
+    setCategories(updatedCategories)
 
     props.closeModal()
   }
 
   const addModal =
     <AddCatDialog
+      categories={ categoryNames }
       onAccept={ addNewCategory }
       onCancel={ props.closeModal } />
 

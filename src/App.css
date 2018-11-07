@@ -399,8 +399,13 @@ a {
   outline: none;
 }
 
-.AddCatDialog input:invalid {
-  border: 1px solid var(--lust);
+.AddCatDialog input.invalid {
+  border: 2px solid var(--lust);
+}
+
+.AddCatDialog .ErrorLabel {
+  color: var(--lust);
+  font-style: italic;
 }
 
 .AddCatDialog textarea {

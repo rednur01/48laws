@@ -25,12 +25,10 @@ class App extends Component {
       toastText: "",
       modal: null
     }
-  }
 
-  componentDidMount() {
+    //Set localStorage items
     !localStorage.getItem("categories") &&
       localStorage.setItem("categories", "[]")
-
     !localStorage.getItem("favoriteLaws") &&
       localStorage.setItem("favoriteLaws","[]")
   }

@@ -60,6 +60,13 @@ export default (props) => {
     props.showToast("Laws Added")
   }
 
+  //Remove a law from the list
+  const removeLaw = (number) => {
+    const updatedLaws = category.laws.filter(item => item.law!==number)
+    updateStorageCategories( updatedLaws )
+    props.showToast("Law Removed")
+  }
+
   //Modal for adding laws
   const addModal =
     <AddLawDialog
@@ -101,6 +108,7 @@ export default (props) => {
         <CatLaws
           laws={category.laws}
           cycleProgress={ cycleProgress }
+          removeLaw={ removeLaw }
           showToast={ props.showToast } />
       </PageShell>
 

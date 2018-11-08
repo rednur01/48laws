@@ -69,6 +69,7 @@ a {
   display: grid;
   grid-template-columns: 4fr 6fr 4fr;
   align-items: center;
+  user-select: none;
 }
 
 .HeaderBar > .Nav {
@@ -106,6 +107,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   text-align: center;
+  user-select: none;
 }
 
 .LawOverviewTile {
@@ -121,6 +123,7 @@ a {
   grid-column-gap: 5px;
   align-items: center;
   border-radius: var(--small-radius);
+  user-select: none;
 }
 
 .LawOverviewTile > .Index {
@@ -205,6 +208,7 @@ a {
   grid-column-gap: 5px;
   align-items: center;
   border-radius: var(--small-radius);
+  user-select: none;
 }
 
 .CatOverviewTile > .Title {
@@ -308,6 +312,7 @@ a {
   padding: var(--medium-margin) var(--tiny-margin);
   transition-property: all;
   transition-duration: 1s;
+  user-select: none;
 }
 
 .fade {
@@ -449,6 +454,7 @@ a {
   grid-column-gap: 5px;
   align-items: center;
   border-radius: var(--small-radius);
+  user-select: none;
 }
 
 .CatLawTile > .Index {
@@ -480,4 +486,8 @@ a {
 .AddLawDialog {
   background-color: var(--light-area);
   padding: 5px 0;
+}
+
+.toDelete > div {
+  border: 3px solid var(--lust);
 }

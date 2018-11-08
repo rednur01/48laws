@@ -29,54 +29,61 @@ export default (props) => {
     props.closeModal()
   }
 
-  const addModal =
-    <AddCatDialog
-      categories={ categoryNames }
-      onAccept={ addNewCategory }
-      onCancel={ props.closeModal } />
-
-  const onAddCategory = () => {
-    props.openModal( addModal )
+  const AddModal = () => {
+    return (
+      <AddCatDialog
+        categories={ categoryNames }
+        onAccept={ addNewCategory }
+        onCancel={ props.closeModal } />
+    )
   }
 
-  const addButton =
-    <div>
+  const onAddCategory = () => {
+    props.openModal( <AddModal/> )
+  }
+
+  const AddButton = () => {
+    return (
       <FontAwesomeIcon
         icon="plus" size="lg" color="white"
         onClick={ onAddCategory } />
-    </div>
+    )
+  }
 
-  let catList
-  if(categories.length) {
-    catList =
-    <ul>
-      {
-        categories.map( (category) =>
-          <li>
-            <CatOverviewTile
-              title={category.title}
-              laws={category.laws.length}
-              navLink={"/Category/" + category.title} />
-          </li>
-        )
-      }
-    </ul>
-  } else {
-    catList =
-    <NotFound404>
-      <p>No categories found</p>
-      <p>Press the <FontAwesomeIcon icon="plus" style={{padding:"0 2px"}}/> above to add one</p>
-    </NotFound404>
+  const CatList = () => {
+    if (categories.length) {
+      return (
+        <ul>
+          {
+            categories.map( (category) =>
+              <li>
+                <CatOverviewTile
+                  title={category.title}
+                  laws={category.laws.length}
+                  navLink={"/Category/" + category.title} />
+              </li>
+            )
+          }
+        </ul>
+      )
+    } else {
+      return (
+        <NotFound404>
+          <p>No categories found</p>
+          <p>Press the <FontAwesomeIcon icon="plus" style={{padding:"0 2px"}}/> above to add one</p>
+        </NotFound404>
+      )
+    }
   }
 
   return (
     <div className="CatOverview">
       <HeaderBar
         title="Categories"
-        action={ addButton } />
+        action={ <AddButton/> } />
 
       <PageShell>
-        {catList}
+        <CatList/>
       </PageShell>
 
       <FooterBar />

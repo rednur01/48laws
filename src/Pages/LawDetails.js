@@ -39,15 +39,18 @@ export default (props) => {
     isFavorite? removeFavorite() : addFavorite()
   }
 
-  const navBack =
-    <div onClick={ () => {
-        props.history.goBack()
-        window.getSelection().removeAllRanges()
-      } }>
-      <FontAwesomeIcon icon="angle-left" /> Laws
-    </div>
+  const NavBack = () => {
+    return (
+      <div onClick={ () => {
+          props.history.goBack()
+          window.getSelection().removeAllRanges()
+        } }>
+        <FontAwesomeIcon icon="angle-left" /> Laws
+      </div>
+    )
+  }
 
-  const favorite = () => {
+  const Favorite = () => {
     const regular = ["far","star"]
     const solid = "star"
     const icon = isFavorite? solid : regular
@@ -55,7 +58,7 @@ export default (props) => {
       <div>
         <FontAwesomeIcon
           icon={ icon }
-          onClick={ () => toggleFavorite() }/>
+          onClick={ toggleFavorite }/>
       </div>
     )
   }
@@ -63,9 +66,9 @@ export default (props) => {
   return (
     <div className="LawDetails">
       <HeaderBar
-        nav={ navBack }
+        nav= <NavBack/>
         title="Law Details"
-        action={ favorite() } />
+        action= <Favorite/> />
 
       <PageShell>
         <DetailHead

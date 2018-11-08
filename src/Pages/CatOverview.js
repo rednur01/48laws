@@ -18,7 +18,7 @@ export default (props) => {
     const newCategory = {
       title: title,
       description: description,
-      laws: 0
+      laws: []
     }
 
     let updatedCategories = storageCategories
@@ -55,7 +55,7 @@ export default (props) => {
           <li>
             <CatOverviewTile
               title={category.title}
-              laws={category.laws}
+              laws={category.laws.length}
               navLink={"/Category/" + category.title} />
           </li>
         )

@@ -15,6 +15,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 library.add( fas, far )
 
+
 class App extends Component {
   constructor() {
     super()
@@ -79,7 +80,11 @@ class App extends Component {
 
           <Route
             path="/Category/:name"
-            component={CatDetails} />
+            render={ props =>
+              <CatDetails {...props}
+                showToast={this.showToast}
+                openModal={this.openModal}
+                closeModal={this.closeModal} /> } />
 
           <Route
             path="/Profile"

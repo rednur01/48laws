@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
 :root {
-  /* Law book colors */
-  --cocoa-brown: hsla(35, 100%, 13%, 1);
-  --wheatfield: hsla(44, 37%, 80%, 1);
-
   /* Book cover colors */
   --navy: hsla(240, 100%, 20%, 1);
   --sunglow: hsla(48, 100%, 60%, 1);
@@ -14,15 +10,8 @@
   --unbleached-silk: #f9dec9;
   --taupe: #4b3834;
   --lust: #e62020;
-
-  /* Strong & contrasting */
-  --river-bed: #4c5c68;
-  --red-damask: #db694a;
-  --blue-bell: #998fc7;
-
-  /*Baby Shark Blue*/
-  --charcoal: #373f51;
-  --rich-electric-blue: #008dd5;
+  --harlequin-green: #46cb18;
+  --deep-safron: #fe9920;
 
   /* Apply colors */
   --dark-area: var(--taupe);
@@ -338,31 +327,31 @@ a {
 
 .Modal > .ModalBody {
   position: relative;
-  width: 70vw;
+  width: 80vw;
   max-height: 80vh;
   border-radius: var(--medium-radius);
   background-color: white;
-  padding: 0 15px;
-  overflow-y: scroll;
 }
 
 .ModalBody > .Header {
   text-align: center;
   font-weight: bold;
   color: var(--dark-text);
-  padding: 10px 0;
+  padding: 10px 15px;
   border-bottom: 1px solid var(--dark-area);
 }
 
 .ModalBody > .Text {
   text-align: left;
-  padding: 5px 0;
   color: var(--dark-text);
+  max-height: 50vh;
+  overflow-y: scroll;
 }
 
 .ModalBody > .Footer {
+  border-top: 1px solid var(--dark-area);
   text-align: right;
-  padding: 5px 0;
+  padding: 5px 15px;
 }
 
 .ModalBody > .Footer > button {
@@ -423,4 +412,72 @@ a {
   background-color: var(--light-area);
   border: 1px solid var(--dark-area);
   outline: none;
+}
+
+.CatHead {
+  background-color: var(--dark-area);
+  padding: var(--medium-margin);
+}
+
+.CatHead .Tile {
+  background-color: var(--white-area);
+  margin-left: var(--small-margin);
+  margin-right: var(--small-margin);
+  padding: var(--small-margin);
+  border-radius: var(--large-radius);
+}
+
+.CatHead .Title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.CatHead .Description {
+  margin-top: var(--medium-margin);
+}
+
+.CatLawTile {
+  height: var(--tile-height);
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: var(--small-margin);
+  margin-right: var(--small-margin);
+  background-color: var(--white-area);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-column-gap: 5px;
+  align-items: center;
+  border-radius: var(--small-radius);
+}
+
+.CatLawTile > .Index {
+  text-align: center;
+}
+
+.CatLawTile > .Text {
+  text-align: left;
+}
+
+.CatLawTile > .Progress {
+  text-align: center;
+}
+
+.selected > div {
+  border: 3px solid var(--harlequin-green);
+}
+
+.CatLaws ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.AddLawDialog ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.AddLawDialog {
+  background-color: var(--light-area);
+  padding: 5px 0;
 }

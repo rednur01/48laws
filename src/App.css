@@ -291,7 +291,7 @@ a {
 .NotFound404 {
   height: var(--single-line-height);
   margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: var(--large-margin);
   margin-left: var(--small-margin);
   margin-right: var(--small-margin);
   text-align: center;
@@ -360,10 +360,10 @@ a {
 }
 
 .ModalBody > .Footer > button {
-  border: 1px solid var(--dark-area);
   border-radius: var(--medium-radius);
   margin-left: 5px;
   margin-bottom: 5px;
+  margin-top: 5px;
   padding: 8px 10px;
   min-width: 60px;
   background-color: var(--dark-area);
@@ -371,9 +371,19 @@ a {
   outline: none;
 }
 
+.ModalBody > .Footer > button:nth-child(1) {
+  background-color: var(--harlequin-green);
+  border: none;
+}
+
+.ModalBody > .Footer > button:nth-child(2) {
+  background-color: var(--lust);
+  border: none;
+}
+
 .AddCatDialog {
   --side-padding: 5px;
-  padding: 15px 0;
+  padding: 15px;
 }
 
 .AddCatDialog input {
@@ -416,6 +426,19 @@ a {
 .AddCatDialog textarea:focus {
   background-color: var(--light-area);
   border: 1px solid var(--dark-area);
+  outline: none;
+}
+
+.CatDetails > .PageShell > button {
+  position: sticky;
+  top: 100%;
+  height: calc(var(--tile-height) / 2);
+  margin: var(--small-margin);
+  width: calc( 100% - 2 * var(--small-margin));
+  background-color: var(--lust);
+  color: white;
+  border: none;
+  border-radius: var(--small-radius);
   outline: none;
 }
 
@@ -490,4 +513,8 @@ a {
 
 .toDelete > div {
   border: 3px solid var(--lust);
+}
+
+.DeleteCatDialog {
+  padding: 15px;
 }

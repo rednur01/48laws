@@ -19,6 +19,9 @@
   --dark-text: var(--taupe);
   --light-text: var(--unbleached-silk);
   --white-area: white;
+  --green: var(--harlequin-green);
+  --red: var(--lust);
+  --orange: var(--deep-safron);
 
   /* Heights and margins */
   --bar-height: 45px;
@@ -298,25 +301,26 @@ a {
 }
 
 .Toast {
-  position: fixed;
-  z-index: var(--z-index-max);
-  bottom: 12vh;
-  background-color: var(--dark-area);
-  color: white;
-  box-shadow: 8px 8px 2px 2px rgba(0, 0, 0, 0.3);
-  width: 65vw;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  border-radius: var(--small-radius);
   text-align: center;
-  padding: var(--medium-margin) var(--tiny-margin);
+  position: fixed;
+  bottom: 12vh;
+  width: 65vw;
+  margin: 0 15vw;
+  border-radius: var(--small-radius);
+  z-index: var(--z-index-max);
+  padding: var(--small-margin);
+  background-color: var(--dark-area);
+  opacity: 0.9;
+  color: white;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: 0s;
   user-select: none;
 }
 
 .fade {
   opacity: 0;
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 .Modal {
@@ -343,7 +347,7 @@ a {
   font-weight: bold;
   color: var(--dark-text);
   padding: 10px 15px;
-  border-bottom: 1px solid var(--dark-area);
+  /* border-bottom: 1px solid var(--dark-area); */
 }
 
 .ModalBody > .Text {
@@ -354,7 +358,7 @@ a {
 }
 
 .ModalBody > .Footer {
-  border-top: 1px solid var(--dark-area);
+  /* border-top: 1px solid var(--dark-area); */
   text-align: right;
   padding: 5px 15px;
 }
@@ -372,12 +376,12 @@ a {
 }
 
 .ModalBody > .Footer > button:nth-child(1) {
-  background-color: var(--harlequin-green);
+  background-color: var(--green);
   border: none;
 }
 
 .ModalBody > .Footer > button:nth-child(2) {
-  background-color: var(--lust);
+  background-color: var(--red);
   border: none;
 }
 
@@ -404,11 +408,11 @@ a {
 }
 
 .AddCatDialog input.invalid {
-  border: 2px solid var(--lust);
+  border: 2px solid var(--red);
 }
 
 .AddCatDialog .ErrorLabel {
-  color: var(--lust);
+  color: var(--red);
   font-style: italic;
 }
 
@@ -435,7 +439,7 @@ a {
   height: calc(var(--tile-height) / 2);
   margin: var(--small-margin);
   width: calc( 100% - 2 * var(--small-margin));
-  background-color: var(--lust);
+  background-color: var(--red);
   color: white;
   border: none;
   border-radius: var(--small-radius);
@@ -493,7 +497,7 @@ a {
 }
 
 .selected > div {
-  border: 3px solid var(--harlequin-green);
+  border: 3px solid var(--green);
 }
 
 .CatLaws ul {
@@ -512,7 +516,7 @@ a {
 }
 
 .toDelete > div {
-  border: 3px solid var(--lust);
+  border: 3px solid var(--red);
 }
 
 .DeleteCatDialog {

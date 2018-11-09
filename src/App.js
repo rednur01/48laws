@@ -20,10 +20,13 @@ class App extends Component {
   constructor() {
     super()
     this.showToast = this.showToast.bind(this)
+    this.fadeToast = this.fadeToast.bind(this)
+    this.hideToast = this.hideToast.bind(this)
     this.openModal = this.openModal.bind(this)
     this.closeModal = this.closeModal.bind(this)
     this.state = {
-      toastText: "",
+      toast: null,
+      toastTimer: null,
       modal: null
     }
 
@@ -34,19 +37,48 @@ class App extends Component {
       localStorage.setItem("favoriteLaws","[]")
   }
 
+  // showToast( text ) {
+  //   const fadeTime = 1700;
+  //   const destroyTime = fadeTime + 1000;
+  //   this.setState({ toastText: text })
+  //
+  //   setTimeout( () => {
+  //     const toast = document.getElementsByClassName("Toast")[0]
+  //     toast && toast.classList.add("fade")
+  //   }, fadeTime )
+  //
+  //   setTimeout(() => {
+  //     this.setState({ toastText: ""})
+  //   }, destroyTime )
+  // }
+
   showToast( text ) {
-    const fadeTime = 1700;
-    const destroyTime = fadeTime + 1000;
-    this.setState({ toastText: text })
+    const toast = <Toast text={text} />
 
-    setTimeout( () => {
-      const toast = document.getElementsByClassName("Toast")[0]
-      toast && toast.classList.add("fade")
-    }, fadeTime )
+    if( this.state.toastTimer ) {
+      clearTimeout( this.state.toastTimer )
+      document.querySelector(".Toast").classList.remove("fade")
+    }
 
-    setTimeout(() => {
-      this.setState({ toastText: ""})
-    }, destroyTime )
+    const timer = setTimeout(this.fadeToast, 2500)
+    this.setState({
+      toast: toast,
+      toastTimer: timer
+    })
+  }
+
+  fadeToast() {
+    const toast = document.querySelector(".Toast")
+    toast && toast.classList.add("fade")
+    const timer = setTimeout(this.hideToast, 1000)
+    this.setState({ toastTimer: timer })
+  }
+
+  hideToast() {
+    this.setState({
+      toast: null,
+      toastTimer: null
+    })
   }
 
   openModal( modal ) {
@@ -90,11 +122,7 @@ class App extends Component {
             path="/Profile"
             component={Profile} />
 
-          {
-            Boolean(this.state.toastText) &&
-            <Toast text={this.state.toastText} />
-          }
-
+          {this.state.toast}
           {this.state.modal}
 
         </div>

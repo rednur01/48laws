@@ -2,8 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default (props) => {
-  const colors = [ "var(--lust)", "var(--deep-safron)", "var(--harlequin-green)" ]
-  const icons = [ "minus-circle", "circle", "check-circle"]
+  const colors = [ "var(--red)", "var(--orange)", "var(--green)" ]
+  const icons = [ ["far","circle"], "adjust", "circle"]
 
   return (
     <div className="CatLawTile">

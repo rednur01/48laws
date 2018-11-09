@@ -37,21 +37,6 @@ class App extends Component {
       localStorage.setItem("favoriteLaws","[]")
   }
 
-  // showToast( text ) {
-  //   const fadeTime = 1700;
-  //   const destroyTime = fadeTime + 1000;
-  //   this.setState({ toastText: text })
-  //
-  //   setTimeout( () => {
-  //     const toast = document.getElementsByClassName("Toast")[0]
-  //     toast && toast.classList.add("fade")
-  //   }, fadeTime )
-  //
-  //   setTimeout(() => {
-  //     this.setState({ toastText: ""})
-  //   }, destroyTime )
-  // }
-
   showToast( text ) {
     const toast = <Toast text={text} />
 

@@ -14,6 +14,9 @@ export default (props) => {
   const [ categories, setCategories ] = useState(storageCategories)
   const categoryNames = storageCategories.map( item => item.title )
 
+  //flush broken entries from pre-alpha
+  localStorage.setItem("categories", "[]")
+
   const addNewCategory = (title, description) => {
     const newCategory = {
       title: title,

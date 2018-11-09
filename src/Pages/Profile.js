@@ -15,7 +15,7 @@ export default () => {
         <NotFound404>
           Profile Settings Coming Soon
           <br/><br/>
-          v0.9 - alpha
+          v0.9.0.1 - alpha
           <br/><br/>
           Developer: Red Nur <br/>
           UX Designer: Katie Zhao

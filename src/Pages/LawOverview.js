@@ -1,75 +1,75 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import SearchBar from '../Components/SearchBar'
 import LawOverviewTile from '../Components/LawOverviewTile'
 import NotFound404 from '../Components/NotFound404'
+import laws from '../Data/laws.json'
 
 import HeaderBar from '../Components/HeaderBar'
 import PageShell from '../Components/PageShell'
 import FooterBar from '../Components/FooterBar'
 
-import laws from '../Data/laws.json'
+export default (props) => {
+  const [ filtered, setFiltered ] = useState(laws)
+  const [ search, setSearch ] = useState("")
 
-class LawOverview extends Component {
-  constructor(props) {
-    super(props)
-    this.onSearch = this.onSearch.bind(this)
-    this.lawFilter = this.lawFilter.bind(this)
-    this.state = {
-      search: "",
-      laws: laws
+  const filterLaws = ( searchValue ) => {
+    let filteredLaws
+
+    if (parseInt(searchValue)) {
+      filteredLaws = laws.filter( law => law.number.startsWith(searchValue) )
+      setFiltered(filteredLaws)
+    }
+    else if (searchValue === "") {
+      setFiltered(laws)
+    }
+    else if (searchValue === "!") {
+      const favorites = JSON.parse(localStorage.getItem("favoriteLaws"))
+      filteredLaws = laws.filter( law => favorites.includes(parseInt(law.number)) )
+      setFiltered(filteredLaws)
+    }
+    else {
+      filteredLaws = laws.filter( law => law.title.toLowerCase().includes(searchValue.toLowerCase()) )
+      setFiltered(filteredLaws)
     }
   }
 
-  onSearch( event ) {
+  const handleSearch = (event) => {
     const value = event.target.value
-    this.setState({ search: value })
-    this.lawFilter(value)
+    setSearch(value)
+    filterLaws(value)
   }
 
-  lawFilter( search ) {
-    if ( parseInt(search) ) {
-      let filtered = laws.filter( law => law.number.startsWith(search) )
-      this.setState({ laws: filtered })
+  const LawList = ( props ) => {
+    if( props.laws.length ) {
+      return (
+        <ul>
+          { props.laws.map( law =>
+              <li key={law.number}>
+                <LawOverviewTile
+                  index={law.number}
+                  text={law.title}
+                  navLink={"/Law/" + law.number} />
+              </li>
+            )}
+        </ul>
+      )
     } else {
-      search = search.toLowerCase()
-      let filtered = laws.filter( law => law.title.toLowerCase().includes(search) )
-      this.setState({ laws: filtered })
+      return (
+        <NotFound404>
+          No Laws Found
+        </NotFound404>
+      )
     }
   }
 
-  render() {
-    let lawList
-    if (this.state.laws.length) {
-      lawList =
-      <ul>
-        {
-          this.state.laws.map( (law) =>
-            <li key={law.number}>
-              <LawOverviewTile
-                index={law.number}
-                text={law.title}
-                navLink={"/Law/" + law.number} />
-            </li>
-          )
-        }
-      </ul>
-    } else {
-      lawList =
-      <NotFound404>
-        No Laws Found
-      </NotFound404>
-    }
-    return (
-      <div className="LawOverview">
-        <HeaderBar title="The 48 Laws of Power"/>
-        <PageShell>
-          <SearchBar placeholder="Search" onSearch={this.onSearch} value={this.state.search}/>
-          { lawList }
-        </PageShell>
-        <FooterBar />
-      </div>
-    )
-  }
+  return (
+    <div className="LawOverview">
+      <HeaderBar title="The 48 Laws of Power" />
+      <PageShell>
+        <SearchBar placeholder="Search" value={search} onSearch={handleSearch} />
+        <LawList laws={filtered} />
+      </PageShell>
+      <FooterBar />
+    </div>
+  )
 }
-
-export default LawOverview

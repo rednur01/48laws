@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import DetailHead from '../Components/DetailHead'
 import DetailSection from '../Components/DetailSection'
 import laws from '../Data/laws.json'
+import { getFavorites, addFavorite, removeFavorite } from '../storage'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import HeaderBar from '../Components/HeaderBar'
@@ -14,29 +15,21 @@ export default (props) => {
   const index = number - 1
   const law = laws[index]
 
-  // //Get favorite state
-  const favoriteLaws = JSON.parse( localStorage.getItem("favoriteLaws") )
-  const [ isFavorite, setIsFavorite ] = useState( favoriteLaws.includes(number) );
+  //Get favorites, set boolean state
+  const favorites = getFavorites()
+  const [ isFavorite, setIsFavorite ] = useState( favorites.includes(number) );
 
   //Favorite toggles
-  const addFavorite = () => {
-    let updatedList = favoriteLaws
-    updatedList.push(number)
-    updatedList.sort( (a,b) => a-b )
-    localStorage.setItem("favoriteLaws", JSON.stringify(updatedList))
-    setIsFavorite(true)
-    props.showToast("Added to Favorites")
-  }
-
-  const removeFavorite = () => {
-    let updatedList = favoriteLaws.filter( item => item !== number )
-    localStorage.setItem("favoriteLaws", JSON.stringify(updatedList))
-    setIsFavorite(false)
-    props.showToast("Removed from Favorites")
-  }
-
   const toggleFavorite = () => {
-    isFavorite? removeFavorite() : addFavorite()
+    if (isFavorite) {
+      removeFavorite(number)
+      setIsFavorite(false)
+      props.showToast("Removed from Favorites")
+    } else {
+      addFavorite(number)
+      setIsFavorite(true)
+      props.showToast("Added to Favorites")
+    }
   }
 
   const NavBack = () => {

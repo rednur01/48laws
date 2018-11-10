@@ -3,6 +3,7 @@ import CatOverviewTile from '../Components/CatOverviewTile'
 import NotFound404 from '../Components/NotFound404'
 import AddCatDialog from '../Components/AddCatDialog'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import * as storage from '../storage'
 
 import HeaderBar from '../Components/HeaderBar'
 import PageShell from '../Components/PageShell'
@@ -10,7 +11,7 @@ import FooterBar from '../Components/FooterBar'
 
 export default (props) => {
 
-  const storageCategories = JSON.parse(localStorage.getItem("categories"))
+  const storageCategories = storage.getCategories()
   const [ categories, setCategories ] = useState(storageCategories)
   const categoryNames = storageCategories.map( item => item.title )
 
@@ -20,12 +21,8 @@ export default (props) => {
       description: description,
       laws: []
     }
-
-    let updatedCategories = storageCategories
-    updatedCategories.push(newCategory)
-    localStorage.setItem("categories", JSON.stringify(updatedCategories))
-    setCategories(updatedCategories)
-
+    storage.addCategory(newCategory)
+    setCategories( storage.getCategories() )
     props.closeModal()
   }
 

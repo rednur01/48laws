@@ -3,6 +3,7 @@ import SearchBar from '../Components/SearchBar'
 import LawOverviewTile from '../Components/LawOverviewTile'
 import NotFound404 from '../Components/NotFound404'
 import laws from '../Data/laws.json'
+import { getFavorites } from '../storage'
 
 import HeaderBar from '../Components/HeaderBar'
 import PageShell from '../Components/PageShell'
@@ -23,7 +24,7 @@ export default (props) => {
       setFiltered(laws)
     }
     else if (searchValue === "!") {
-      const favorites = JSON.parse(localStorage.getItem("favoriteLaws"))
+      const favorites = getFavorites()
       filteredLaws = laws.filter( law => favorites.includes(parseInt(law.number)) )
       setFiltered(filteredLaws)
     }

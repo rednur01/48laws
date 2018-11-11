@@ -245,34 +245,52 @@ a {
 
 .SearchBar {
   position: relative;
-  height: var(--single-line-height);
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-  margin-left: var(--small-margin);
-  margin-right: var(--small-margin);
+  height: calc(1.5 * var(--single-line-height));
+  background-color: var(--dark-area);
+  padding: var(--tiny-margin) var(--small-margin);
+  display: grid;
+  align-items: center;
 }
 
 .SearchBar input {
-  height: 100%;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: var(--large-radius);
+  height: var(--single-line-height);
+  border-radius: var(--small-radius);
   border: none;
   outline: none;
-  padding-left: calc(var(--medium-margin) + 25px );
+  padding-left: calc(var(--medium-margin) + 20px );
   color: var(--dark-text);
-  width: calc(100% - var(--medium-margin) - 25px );
+  width: calc(100% - var(--medium-margin) - 20px);
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
 .SearchBar input:focus {
   outline: none;
 }
 
+.SearchBar input.searching {
+  width: 70%;
+}
+
+.SearchBar button {
+  position: absolute;
+  right: var(--small-margin);
+  width: 15%;
+  border: none;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  display: none;
+}
+
+.SearchBar button.searching {
+  display: inline;
+}
+
 .SearchBar .search {
   position: absolute;
   left: var(--medium-margin);
-  top: calc( var(--single-line-height) / 4);
+  top: calc( var(--single-line-height) / 1.5);
   width: 20px;
-
 }
 
 /* Tile Variation */
@@ -376,12 +394,14 @@ a {
 }
 
 .ModalBody > .Footer > button:nth-child(1) {
-  background-color: var(--green);
+  background-color: var(--dark-area);
+  color: white;
   border: none;
 }
 
 .ModalBody > .Footer > button:nth-child(2) {
-  background-color: var(--red);
+  background-color: white;
+  color: var(--dark-text);
   border: none;
 }
 
@@ -521,4 +541,21 @@ a {
 
 .DeleteCatDialog {
   padding: 15px;
+}
+
+.Profile button {
+  position: sticky;
+  top: 100%;
+  height: calc(var(--tile-height) / 2);
+  margin: var(--small-margin);
+  width: calc( 100% - 2 * var(--small-margin));
+  background-color: var(--red);
+  color: white;
+  border: none;
+  border-radius: var(--small-radius);
+  outline: none;
+}
+
+.FlushStorageDialog {
+  padding: 5px var(--small-margin);
 }

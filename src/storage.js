@@ -51,7 +51,7 @@ export const getCategory = (categoryName) => {
 export const setCategory = (categoryName, object) => {
   let categories = getCategories()
   const index = categories.findIndex( item => item.title === categoryName )
-  if (index > 0) {
+  if (index !== -1) {
     categories[index] = object
     return setCategories(categories)
   }

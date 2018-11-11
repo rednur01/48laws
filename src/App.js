@@ -105,7 +105,11 @@ class App extends Component {
 
           <Route
             path="/Profile"
-            component={Profile} />
+            render={ props =>
+              <Profile {...props}
+                showToast={this.showToast}
+                openModal={this.openModal}
+                closeModal={this.closeModal} /> } />
 
           {this.state.toast}
           {this.state.modal}

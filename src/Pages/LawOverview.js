@@ -23,7 +23,7 @@ export default (props) => {
     else if (searchValue === "") {
       setFiltered(laws)
     }
-    else if (searchValue === "!") {
+    else if (searchValue.trim() === "!") {
       const favorites = getFavorites()
       filteredLaws = laws.filter( law => favorites.includes(parseInt(law.number)) )
       setFiltered(filteredLaws)
@@ -38,6 +38,11 @@ export default (props) => {
     const value = event.target.value
     setSearch(value)
     filterLaws(value)
+  }
+
+  const clearSearch = () => {
+    setSearch("")
+    filterLaws("")
   }
 
   const LawList = ( props ) => {
@@ -67,7 +72,12 @@ export default (props) => {
     <div className="LawOverview">
       <HeaderBar title="The 48 Laws of Power" />
       <PageShell>
-        <SearchBar placeholder="Search" value={search} onSearch={handleSearch} />
+        <SearchBar
+          placeholder="Search"
+          value={search}
+          onSearch={handleSearch}
+          clearSearch={clearSearch} />
+
         <LawList laws={filtered} />
       </PageShell>
       <FooterBar />

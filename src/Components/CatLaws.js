@@ -15,26 +15,23 @@ export default (props) => {
   const unmarkDeletion = (number) => {
     if (deletion.includes(number)) {
       let list = deletion
-      list = list.filter( item => item!==number)
+      list = list.filter(item => item !== number)
       setDeletion(list)
     }
   }
 
-  const toggleDeletion = (e, number) => {
-    //Prevent context menu
-    //Remove selection
-    e.preventDefault()
-    window.getSelection().removeAllRanges()
+  const toggleDeletion = (number) => {
     number = parseInt(number)
 
-    //If not marked, mark for deletion
-    //If marked, delete
     if (!deletion.includes(number)) {
       markDeletion(number)
-      props.showToast("Long press again to delete. Tap to clear selection.")
     } else {
-      props.removeLaw(number)
+      unmarkDeletion(number)
     }
+  }
+
+  const removeLaw = (number) => {
+    props.removeLaw(number)
   }
 
   let lawList
@@ -44,16 +41,17 @@ export default (props) => {
       {
         props.laws.map( item =>
           <li
-            key={item.law}
-            className={ deletion.includes(parseInt(item.law)) ? "toDelete" : undefined }
-            onContextMenu={ (e) => toggleDeletion(e, item.law) }
-            onClick={ () => unmarkDeletion(item.law) } >
+            key={item.law} >
 
             <CatLawTile
               index={item.law}
               text={ laws[item.law-1].title }
               progress={item.progress}
-              cycleProgress={ () => props.cycleProgress(item) } />
+              cycleProgress={ () => props.cycleProgress(item) }
+              marked={ deletion.includes(parseInt(item.law)) ? true:false }
+              markDeletion={ () => markDeletion(item.law) }
+              unmarkDeletion={ () => unmarkDeletion(item.law) }
+              removeLaw={ () => removeLaw(item.law) } />
           </li>
         )
       }

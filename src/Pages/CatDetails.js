@@ -103,11 +103,11 @@ export default (props) => {
       { Boolean(category) &&
         <PageShell>
           <CatHead
-            title={category.title}
-            description={category.description} />
+            title={ category.title }
+            description={ category.description } />
 
           <CatLaws
-            laws={category.laws}
+            laws={ category.laws }
             cycleProgress={ cycleProgress }
             removeLaw={ removeLaw }
             showToast={ props.showToast } />

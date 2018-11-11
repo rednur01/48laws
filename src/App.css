@@ -42,6 +42,7 @@
   --header-height: var(--bar-height);
   --footer-height: var(--bar-height);
 
+  --below: -1;
   --z-index-1: 10;
   --z-index-2: 20;
   --z-index-3: 30;
@@ -492,31 +493,67 @@ a {
   height: var(--tile-height);
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+  position: relative;
+  user-select: none;
+}
+
+.CatLawTile > div {
+  height: 100%;
   margin-left: var(--small-margin);
   margin-right: var(--small-margin);
-  background-color: var(--white-area);
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: calc(100% - 2 * var(--small-margin));
+  border-radius: var(--small-radius);
+}
+
+.CatLawTile > .Top {
+  position: absolute;
+  top: 0;
+  background-color: white;
+  color: var(--dark-text);
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
   grid-column-gap: 5px;
   align-items: center;
-  border-radius: var(--small-radius);
+  z-index: var(--z-index-1);
+}
+
+.CatLawTile > .Top.Delete {
+  left: -70px;
+}
+
+.CatLawTile > .Bottom {
+  position: absolute;
+  top: 0;
+  background-color: var(--red);
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  /* z-index: var(--below); */
+  text-align: right;
+  line-height: var(--tile-height);
+}
+
+.CatLawTile > .Bottom > button {
+  width: 70px;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  color: white;
   user-select: none;
 }
 
-.CatLawTile > .Index {
+.CatLawTile > .Top > .Index {
   text-align: center;
 }
 
-.CatLawTile > .Text {
+.CatLawTile > .Top > .Text {
   text-align: left;
 }
 
-.CatLawTile > .Progress {
+.CatLawTile > .Top > .Progress {
   text-align: center;
 }
 
-.selected > div {
+.selected > div > .Top {
   border: 3px solid var(--green);
 }
 

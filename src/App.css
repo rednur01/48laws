@@ -508,6 +508,7 @@ a {
 .CatLawTile > .Top {
   position: absolute;
   top: 0;
+  left: 0;
   background-color: white;
   color: var(--dark-text);
   display: grid;
@@ -515,6 +516,8 @@ a {
   grid-column-gap: 5px;
   align-items: center;
   z-index: var(--z-index-1);
+  transition-property: left;
+  transition-duration: 0.5s;
 }
 
 .CatLawTile > .Top.Delete {

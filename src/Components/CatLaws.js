@@ -20,18 +20,9 @@ export default (props) => {
     }
   }
 
-  const toggleDeletion = (number) => {
-    number = parseInt(number)
-
-    if (!deletion.includes(number)) {
-      markDeletion(number)
-    } else {
-      unmarkDeletion(number)
-    }
-  }
-
   const removeLaw = (number) => {
     props.removeLaw(number)
+    unmarkDeletion(number)
   }
 
   let lawList

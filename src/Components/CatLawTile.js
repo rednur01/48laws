@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default (props) => {
@@ -7,10 +7,12 @@ export default (props) => {
 
   const top = props.marked? "Top Delete" : "Top"
 
+  const [ swipeStart, setSwipeStart ] = useState(0)
+  const threshold = 30; //pixels
+
   //Only defined if deletable
-  const markDeletion = (e) => {
-    e.preventDefault()
-    if (props.markDeletion) {
+  const markDeletion = () => {
+    if (props.markDeletion && !props.marked) {
       props.markDeletion()
     }
   }
@@ -21,12 +23,27 @@ export default (props) => {
     }
   }
 
+  const swipeEnd = ( x ) => {
+    if ( swipeStart-x > threshold ) {
+      //Left swipe
+      markDeletion()
+    }
+    else if ( x-swipeStart > threshold) {
+      //Right swipe
+      unmarkDeletion()
+    }
+    else {
+      //Just a tap
+    }
+  }
+
   return (
     <div className="CatLawTile">
       <div
         className={ top }
-        onContextMenu={ markDeletion }
-        onClick = { unmarkDeletion } >
+        onClick = { unmarkDeletion }
+        onTouchStart = { (e) => setSwipeStart(e.changedTouches[0].clientX)}
+        onTouchEnd = { (e) => swipeEnd(e.changedTouches[0].clientX)} >
         <div className="Index">
           {props.index}
         </div>

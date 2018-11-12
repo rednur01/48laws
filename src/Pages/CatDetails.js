@@ -31,7 +31,7 @@ export default (props) => {
   //Remove a law from the list
   const removeLaw = (number) => {
     storage.removeCategoryLaw(name, number)
-    props.showToast("Law Removed")
+    props.showToast(`Law ${number} Removed`)
   }
 
   //Modal for adding laws
@@ -68,6 +68,7 @@ export default (props) => {
     props.history.goBack()
     storage.removeCategory(name)
     props.closeModal()
+    props.showToast(`"${name}" Deleted`)
   }
 
   const DeleteModal = () => {

@@ -5,43 +5,49 @@ export default (props) => {
   const colors = [ "var(--red)", "var(--orange)", "var(--green)" ]
   const icons = [ ["far","circle"], "adjust", "circle"]
 
-  const top = props.marked? "Top Delete" : "Top"
+  //Top layer has 3 states:
+  //Top (flush), toDelete (just exposing button), Deleting (removed)
+  const [ topClass, setTopClass ] = useState("Top")
 
   const [ swipeStart, setSwipeStart ] = useState(0)
-  const threshold = 30; //pixels
+  const threshold = 30; //px
 
-  //Only defined if deletable
-  const markDeletion = () => {
-    if (props.markDeletion && !props.marked) {
-      props.markDeletion()
-    }
+  const markToDelete = () => {
+    setTopClass("Top toDelete")
   }
 
-  const unmarkDeletion = () => {
-    if (props.marked) {
-      props.unmarkDeletion()
-    }
+  const unmarkToDelete = () => {
+    setTopClass("Top")
+  }
+
+  const removeLaw = () => {
+    setTopClass("Top Deleting")
+    setTimeout(props.removeLaw, 600)
   }
 
   const swipeEnd = ( x ) => {
-    if ( swipeStart-x > threshold ) {
-      //Left swipe
-      markDeletion()
-    }
-    else if ( x-swipeStart > threshold) {
-      //Right swipe
-      unmarkDeletion()
-    }
-    else {
-      //Just a tap
+    if (props.deletable) {
+      if ( swipeStart-x > threshold ) {
+        //Left swipe
+        if ( !topClass.includes("toDelete") ) {
+          markToDelete()
+        } else {
+          removeLaw()
+        }
+      }
+      else if ( x-swipeStart > threshold) {
+        //Right swipe
+        unmarkToDelete()
+      }
     }
   }
 
   return (
     <div className="CatLawTile">
       <div
-        className={ top }
-        onClick = { unmarkDeletion }
+        className={ topClass }
+        onClick = { unmarkToDelete }
+        onContextMenu = { e => { e.preventDefault(); markToDelete() } }
         onTouchStart = { (e) => setSwipeStart(e.changedTouches[0].clientX)}
         onTouchEnd = { (e) => swipeEnd(e.changedTouches[0].clientX)} >
         <div className="Index">
@@ -62,7 +68,7 @@ export default (props) => {
       </div>
 
       <div className="Bottom">
-        <button onClick={ props.removeLaw }>
+        <button onClick={ removeLaw }>
           Delete
         </button>
       </div>

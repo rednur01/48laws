@@ -71,7 +71,11 @@ class App extends Component {
   }
 
   closeModal() {
-    this.setState({ modal: null })
+    document.querySelector(".ModalBody").classList.add("Hide")
+    setTimeout( () => {
+      this.setState({ modal: null })
+    }, 600)
+
   }
 
   render() {

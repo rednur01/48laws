@@ -6,23 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import laws from '../Data/laws.json'
 
 export default (props) => {
-  const [ deletion, setDeletion ] = useState([])
-
-  const markDeletion = (number) => {
-    setDeletion([number])
-  }
-
-  const unmarkDeletion = (number) => {
-    if (deletion.includes(number)) {
-      let list = deletion
-      list = list.filter(item => item !== number)
-      setDeletion(list)
-    }
-  }
 
   const removeLaw = (number) => {
     props.removeLaw(number)
-    unmarkDeletion(number)
   }
 
   let lawList
@@ -39,10 +25,8 @@ export default (props) => {
               text={ laws[item.law-1].title }
               progress={item.progress}
               cycleProgress={ () => props.cycleProgress(item) }
-              marked={ deletion.includes(parseInt(item.law)) ? true:false }
-              markDeletion={ () => markDeletion(item.law) }
-              unmarkDeletion={ () => unmarkDeletion(item.law) }
-              removeLaw={ () => removeLaw(item.law) } />
+              removeLaw={ () => removeLaw(item.law) }
+              deletable={true} />
           </li>
         )
       }

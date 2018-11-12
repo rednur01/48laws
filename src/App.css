@@ -294,7 +294,6 @@ a {
   width: 20px;
 }
 
-/* Text Variation */
 .NotFound404 {
   height: var(--single-line-height);
   margin-top: 0.75rem;
@@ -340,10 +339,32 @@ a {
 
 .Modal > .ModalBody {
   position: relative;
+  top: 0;
   width: 80vw;
   max-height: 80vh;
   border-radius: var(--medium-radius);
   background-color: white;
+  animation-name: modalslideup;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes modalslideup {
+  from{ top: 100%; }
+  to{ top: 0; }
+}
+
+.Modal > .ModalBody.Hide {
+  animation-name: modalslidedown;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+@keyframes modalslidedown {
+  from{ top: 0; }
+  to{ top: 100%; }
 }
 
 .ModalBody > .Header {
@@ -503,8 +524,12 @@ a {
   transition-duration: 0.5s;
 }
 
-.CatLawTile > .Top.Delete {
+.CatLawTile > .Top.toDelete {
   left: -70px;
+}
+
+.CatLawTile > .Top.Deleting {
+  left: -100%;
 }
 
 .CatLawTile > .Bottom {
@@ -523,6 +548,7 @@ a {
   background-color: rgba(0,0,0,0);
   border: none;
   color: white;
+  outline: none;
   user-select: none;
 }
 
@@ -555,10 +581,6 @@ a {
 .AddLawDialog {
   background-color: var(--light-area);
   padding: 5px 0;
-}
-
-.toDelete > div {
-  border: 3px solid var(--red);
 }
 
 .DeleteCatDialog {

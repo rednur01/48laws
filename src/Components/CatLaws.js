@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import CatLawTile from '../Components/CatLawTile'
 import NotFound404 from '../Components/NotFound404'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

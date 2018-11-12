@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import ScrollToTop from './Components/ScrollToTop'
+import ScrollRestoration from './Components/ScrollRestoration'
 import Toast from './Components/Toast'
 import './App.css'
 
@@ -81,7 +81,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <ScrollToTop>
+      <ScrollRestoration>
         <div className="App">
           <Route
             path="/" exact
@@ -119,7 +119,7 @@ class App extends Component {
           {this.state.modal}
 
         </div>
-      </ScrollToTop>
+      </ScrollRestoration>
       </Router>
     )
   }
